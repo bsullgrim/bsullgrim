@@ -1,38 +1,51 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: "Ben Grimsley - Systems Engineer"
+description: "Portfolio of Ben Grimsley, Systems Engineer, specializing in space, robotics, and complex systems design."
+url: "https://bengrimsley.engineer" # Your domain name
+baseurl: "" # Leave empty if you are not using a subfolder
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Author info
+author:
+  name: "Ben Grimsley"
+  email: "ben@bengrimsley.engineer" # Use your email
 
-# Build settings
-theme: minima
+# Social links
+social:
+  github: "https://github.com/bsullgrim"
+  twitter: "https://twitter.com/ben_grimsley"
+  linkedin: "https://www.linkedin.com/in/ben-grimsley"
+  email: "mailto:ben@bengrimsley.engineer"
+
+# Markdown settings
+markdown: kramdown
+
+# Theme settings
+theme: "minima" # You can use any theme you like
+
+# Permalink settings (for URL structure)
+permalink: "/:categories/:year/:month/:day/:title/"
+
+# Plugins (optional, for additional functionality)
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from being processed
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "_config.yml"
+  - "node_modules"
+
+# Build settings
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
