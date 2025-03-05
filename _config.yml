@@ -1,21 +1,3 @@
-# Site settings
-title: "Ben Grimsley - Systems Engineer"
-description: "Portfolio of Ben Grimsley, Systems Engineer, specializing in space, robotics, and complex systems design."
-url: "https://bengrimsley.engineer" # Your domain name
-baseurl: "" # Leave empty if you are not using a subfolder
-
-# Author info
-author:
-  name: "Ben Grimsley"
-  email: "ben@bengrimsley.engineer" # Use your email
-
-# Social links
-social:
-  github: "https://github.com/bsullgrim"
-  twitter: "https://twitter.com/ben_grimsley"
-  linkedin: "https://www.linkedin.com/in/ben-grimsley"
-  email: "mailto:ben@bengrimsley.engineer"
-
 # Markdown settings
 markdown: kramdown
 
@@ -35,7 +17,6 @@ exclude:
   - "LICENSE"
   - "Gemfile"
   - "Gemfile.lock"
-  - "_config.yml"
   - "node_modules"
 
 # Build settings
