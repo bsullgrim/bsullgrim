@@ -3,7 +3,7 @@
 
 Welcome! I’m **Ben Grimsley**, a **Systems Engineer** with a passion for **space technology, in-space manufacturing, and maritime robotics**. My work spans **Model-Based Systems Engineering (MBSE), guidance systems, in-space production, and robotic systems** for both aerospace and underwater applications.
 
-[🔗 Download My Resume](resume.pdf)  
+[🔗 Download My Resume](<a href="docs/B.Grimsley_resume.pdf)  
 
 I currently work as a **Senior Member of Technical Staff at Draper**, focusing on **satellite systems, in-space production, and adaptable guidance architectures**. I’m also pursuing a **Master of Science in Systems Engineering from Johns Hopkins University**, researching **MBSE applications for in-space and autonomous systems**.
 
