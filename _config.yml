@@ -32,7 +32,6 @@ plugins:
 
 # Exclude files from being processed
 exclude:
-  - "README.md"
   - "LICENSE"
   - "Gemfile"
   - "Gemfile.lock"
