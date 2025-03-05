@@ -1,8 +1,3 @@
----
-layout: default
-title: Ben Grimsley
----
-
 # Ben Grimsley  
 **Senior Systems Engineer | Technical PM | Space & Robotics**  
 
