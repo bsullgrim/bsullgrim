@@ -19,8 +19,10 @@ I currently work as a **Senior Member of Technical Staff at Draper**, focusing o
 
 ## **🔬 Featured Projects**
 ### **🛰 Automated Orbital Manufacturing System (AOMS)**
-A next-generation orbital platform enabling **automated, unmanned in-space manufacturing**, with an initial focus on **ZBLAN fiber production**. Developed as part of my **graduate capstone project**, AOMS integrates **SysML simulations** to optimize system performance.
+A next-generation orbital platform enabling **automated, unmanned in-space manufacturing**, with an initial focus on **ZBLAN fiber production**. Developed as part of my **graduate capstone project**, AOMS integrates **SysML simulations** to optimize system performance. 
+
 Check out...
+
 [🔗 The Paper](docs/AOMS_Final_Report.pdf)  
 [🔗 The Presentation](docs/AOMS_Presentation.pdf)  
 
