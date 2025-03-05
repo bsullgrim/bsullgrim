@@ -1,40 +1,47 @@
-title: "Ben Grimsley"  # Your name or personal brand
-subtitle: "Systems Engineer | Space Enthusiast | MBSE Practitioner"  # A short tagline
-description: "Welcome to my portfolio. I specialize in Model-Based Systems Engineering (MBSE), orbital platform development, and in-space manufacturing."  # Brief description for SEO
-author: "Ben Grimsley"
-baseurl: ""  # Leave empty if deploying to GitHub Pages at username.github.io
-url: "https://bengrimsley.engineer"  # Your custom domain or GitHub Pages URL
+# Site settings
+title: "Ben Grimsley - Systems Engineer"
+description: "Portfolio of Ben Grimsley, Systems Engineer, specializing in space, robotics, and complex systems design."
+url: "https://bengrimsley.engineer" # Your domain name
+baseurl: "" # Leave empty if you are not using a subfolder
 
-theme: "minima"  # Apply the Minima theme
+# Author info
+author:
+  name: "Ben Grimsley"
+  email: "ben@bengrimsley.engineer" # Use your email
 
-# Minima theme settings
-minima:
-  skin: auto  # Use default light/dark mode settings
-  social_links:
-    github: bsullgrim
-    linkedin: bengrimsley
-    rss: true  # Optional, removes RSS icon if set to false
-
-# Navigation Links (optional if you want a one-page layout)
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
-  - contact.md
+# Social links
+social:
+  github: "https://github.com/bsullgrim"
+  twitter: "https://twitter.com/ben_grimsley"
+  linkedin: "https://www.linkedin.com/in/ben-grimsley"
+  email: "mailto:ben@bengrimsley.engineer"
 
 # Markdown settings
 markdown: kramdown
-highlighter: rouge  # Syntax highlighting for code blocks
 
-# Plugins
+# Theme settings
+theme: "minima" # You can use any theme you like
+
+# Permalink settings (for URL structure)
+permalink: "/:categories/:year/:month/:day/:title/"
+
+# Plugins (optional, for additional functionality)
 plugins:
-  - jekyll-seo-tag  # Improves SEO metadata
-  - jekyll-feed  # Generates an RSS feed
-  - jekyll-sitemap  # Creates a sitemap.xml for search engines
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from being processed
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "_config.yml"
+  - "node_modules"
 
 # Build settings
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
