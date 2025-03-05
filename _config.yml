@@ -5,7 +5,7 @@ author: "Ben Grimsley"
 baseurl: ""  # Leave empty if deploying to GitHub Pages at username.github.io
 url: "https://bengrimsley.engineer"  # Your custom domain or GitHub Pages URL
 
-theme: minima  # Apply the Minima theme
+theme: "minima"  # Apply the Minima theme
 
 # Minima theme settings
 minima:
