@@ -1,3 +1,4 @@
+# **Ben Grimsley**
 ### **Systems Engineer | Space Technology | MBSE Specialist | Maritime Robotics**
 
 Welcome! I’m **Ben Grimsley**, a **Systems Engineer** with a passion for **space technology, in-space manufacturing, and maritime robotics**. My work spans **Model-Based Systems Engineering (MBSE), guidance systems, in-space production, and robotic systems** for both aerospace and underwater applications.
