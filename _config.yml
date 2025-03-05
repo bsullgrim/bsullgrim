@@ -3,7 +3,7 @@ name: "Ben Grimsley"
 description: "Systems Engineer, Space Enthusiast, and Robotics Designer."
 url: "https://bengrimsley.engineer" 
 baseurl: ""  # Leave empty for the root domain
-
+theme: "minima"
 # SEO
 seo:
   title: "Ben Grimsley – Systems Engineer and Space Enthusiast"
