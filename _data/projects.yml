@@ -1,0 +1,31 @@
+---
+title: "Featured Projects"
+layout: single
+header:
+  overlay_image: /assets/images/featured-bg.jpg
+feature_row:
+  - image_path: /assets/images/aoms.jpg
+    alt: "AOMS System"
+    title: "🛰 Automated Orbital Manufacturing System"
+    excerpt: "A next-gen in-space manufacturing platform for ZBLAN fiber production."
+    url: "/projects/aoms"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/vleo.jpg
+    alt: "VLEO Satellite"
+    title: "🌎 VLEO Satellite Systems | DARPA Otter"
+    excerpt: "Developing next-gen VLEO satellites and adaptable architectures."
+    url: "/projects/vleo"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/navy-guidance.jpg
+    alt: "Navy Guidance Systems"
+    title: "⚡ US Navy Guidance Systems"
+    excerpt: "Supporting adaptable guidance architectures for CPS & Trident."
+    url: "/projects/navy-guidance"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+
+---
