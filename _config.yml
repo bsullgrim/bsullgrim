@@ -13,13 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ben Grimsley
+title: Ben Grimsley | Systems Engineer | Space & Maritime Enthusiast
 email: grimsley.ben@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+ Systems engineer with expertise in orbital manufacturing, MBSE, space technology and maritime robotics. Explore my projects, insights, and research.
+twitter_username: BenSullivanG
 github_username: bsullgrim
 minimal_mistakes_skin: dark
 search: false
@@ -60,20 +58,21 @@ plugins:
 author:
   name   : "Ben Grimsley"
   avatar : assets/images/bio-photo.jpeg
-  bio    : "Welcome! I’m Ben Grimsley, a Systems Engineer passionate about space technology, in-space manufacturing, and maritime robotics."
+  bio    : "Professional Systems Engineer, amateur woodworker, pretty slow cyclist."
+  location: "Boston, MA"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bengrimsley/" 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://x.com/BenSullivanG"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/bsullgrim"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/bsullivan93"
 
 footer:
   links:
@@ -82,13 +81,13 @@ footer:
       url: "https://www.linkedin.com/in/bengrimsley/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://x.com/BenSullivanG"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bsullgrim"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/bsullivan93"
 
 defaults:
   # _posts
