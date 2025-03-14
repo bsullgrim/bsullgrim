@@ -30,7 +30,8 @@ A next-generation orbital platform enabling **automated, unmanned in-space manuf
 Check out...
 
 [🔗 The Paper](docs/AOMS_Final_Report.pdf)  
-[🔗 The Presentation](docs/AOMS_Presentation.pdf)  
+[🔗 The Presentation](docs/AOMS_Presentation.pdf)
+[🔗 The SysML Model](https://bsullgrim.github.io/AOMS/AOMS.html) 
 
 ### **🌎 VLEO Satellites | DARPA Otter Program**
 Contributing to **Very Low Earth Orbit (VLEO) satellite architectures**, defining **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
