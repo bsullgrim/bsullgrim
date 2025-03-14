@@ -45,17 +45,7 @@ Developed **remotely operated vehicles (ROVs)** for naval applications, includin
 📌 **Project Management**: Agile, Earned Value (EVM), Risk Management  
 📌 **Robotics & Autonomy**: Navigation, Control Systems, Hardware-Software Integration  
 📌 **Aerospace & Space Systems**: Satellite Design, Orbital Analysis, Payload Integration  
-
 ---
-
-## 🛠️ Skills & Tools  
-📌 **Engineering & Analysis**: MBSE, SysML, MATLAB, Simulink, Python, ROS2  
-📌 **Project Management**: Agile, Earned Value (EVM), Risk Management  
-📌 **Robotics & Autonomy**: Navigation, Control Systems, Hardware-Software Integration  
-📌 **Aerospace & Space Systems**: Satellite Design, Orbital Analysis, Payload Integration  
-
----
-
 ## 🎯 Contact  
 📧 **Email**: [grimsley.ben@gmail.com](mailto:grimsley.ben@gmail.com)  
 📂 **GitHub**: [github.com/BenGrimsley](https://github.com/bsullgrim)  
