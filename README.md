@@ -1,32 +1,34 @@
 # **Ben Grimsley**
 ### **Systems Engineer | Space Technology | MBSE Specialist | Maritime Robotics**
+I'm a systems engineer, space enthusiast, and problem solver working at the intersection of technology, innovation, and exploration. This site is a collection of my projects, experiences, and insights—from orbital manufacturing and MBSE to cutting-edge aerospace systems.
 
-Welcome! I’m **Ben Grimsley**, a **Systems Engineer** with a passion for **space technology, in-space manufacturing, and maritime robotics**. My work spans **Model-Based Systems Engineering (MBSE), guidance systems, in-space production, and robotic systems** for both aerospace and underwater applications.
+- 🔭 Explore my work,
+- 🌌 Discover my journey,
+- 📡 Connect and collaborate.
 
-[🔗 Download My Resume](docs/B.Grimsley_resume.pdf)  
+## **🎓 Education**
+- **M.S. in Systems Engineering**, Johns Hopkins University  
+- **B.S. in Mechanical Engineering**, Rochester Institute of Technology  
 
-I currently work as a **Senior Member of Technical Staff at Draper**, focusing on **satellite systems, in-space production, and adaptable guidance architectures**. I’m also pursuing a **Master of Science in Systems Engineering from Johns Hopkins University**, researching **MBSE applications for in-space and autonomous systems**.
+## **🚀 Expertise**
+- **🦅 Former Air Force Captain** – Launch Operations, Falcon 9 Certification, X-37B Recovery Operations 
+- **🛰️ Space Systems Engineering** – LEO/VLEO satellite design  
+- **🔄 MBSE & Digital Engineering** – SysML, Cameo, Model Execution  
+- **⚙️ In-Space Manufacturing** – Automated orbital production systems  
+- **🤖 Maritime Robotics** – Naval & underwater robotics  
 
----
-
-## **🚀 What I Do**
-- **🛰 Space Systems Engineering** – Designing scalable architectures for **LEO/VLEO satellites**  
-- **📡 MBSE & Digital Engineering** – Implementing **SysML and Cameo**  
-- **⚙️ In-Space Manufacturing** – Developing automated **orbital production systems**  
-- **🤖 Maritime & Autonomous Robotics** – Engineering robotic platforms for **naval & underwater exploration**  
-
----
+📂 [Download My Resume](docs/B.Grimsley_resume.pdf)
 
 ## **🔬 Featured Projects**
-### **🛰 Automated Orbital Manufacturing System (AOMS)**
-A next-generation orbital platform enabling **automated, unmanned in-space manufacturing**, with an initial focus on **ZBLAN fiber production**. Developed as part of my **graduate capstone project**, AOMS integrates **SysML simulations** to optimize system performance. 
+### **🛰️ Automated Orbital Manufacturing System**
+A next-generation orbital platform enabling **automated, unmanned in-space manufacturing**, with an initial focus on **ZBLAN fiber production**. Developed as part of my **graduate capstone project**, focused on the application of the MBSE process on early system conceptual design and trade studies.
 
 Check out...
 
 [🔗 The Paper](docs/AOMS_Final_Report.pdf)  
 [🔗 The Presentation](docs/AOMS_Presentation.pdf)  
 
-### **🌎 VLEO Satellite Systems | DARPA Otter Program**
+### **🌎 VLEO Satellites | DARPA Otter Program**
 Contributing to **Very Low Earth Orbit (VLEO) satellite architectures**, defining **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
 
 ### **⚡ US Navy Guidance Systems**
@@ -37,6 +39,12 @@ Developed **remotely operated vehicles (ROVs)** for naval applications, includin
 - **🔧 EOD Inspection Robots** – Designed a robotic system for **explosive ordnance disposal (EOD)**  
 - **🦾 Magnetic Ballast Tank Inspection Robot** – Engineered an autonomous system for **hull inspections**  
 - **🚢 Unmanned Surface & Underwater Vehicles** – Contributed to **autonomous vehicle guidance & anchoring systems**  
+
+## 🛠️ Skills & Tools  
+📌 **Engineering & Analysis**: MBSE, SysML, MATLAB, Simulink, Python, ROS2  
+📌 **Project Management**: Agile, Earned Value (EVM), Risk Management  
+📌 **Robotics & Autonomy**: Navigation, Control Systems, Hardware-Software Integration  
+📌 **Aerospace & Space Systems**: Satellite Design, Orbital Analysis, Payload Integration  
 
 ---
 
