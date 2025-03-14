@@ -31,6 +31,7 @@ Check out...
 
 [🔗 The Paper](docs/AOMS_Final_Report.pdf)  
 [🔗 The Presentation](docs/AOMS_Presentation.pdf)
+
 [🔗 The SysML Model](https://bsullgrim.github.io/AOMS/AOMS.html) 
 
 ### **🌎 VLEO Satellites | DARPA Otter Program**
