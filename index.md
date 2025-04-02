@@ -41,9 +41,9 @@ Check out...
 ### **🔱 US Navy Guidance Systems**
 Supported the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
 
-### 🚀 **Space Systems Engineering
+### 🚀 **Space Systems Engineering**
 
-- 🌎 VLEO Satellites – DARPA Otter Program
+- 🌎 **VLEO Satellites – DARPA Otter Program**
 Contributed to **Very Low Earth Orbit (VLEO) satellite architectures**, defined **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
 
 - 🪶 **Blue Origin – Sustaining Lunar Development (SLD)**
