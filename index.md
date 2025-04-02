@@ -36,7 +36,7 @@ Check out...
 ### **🌎 VLEO Satellites | DARPA Otter Program**
 Contributing to **Very Low Earth Orbit (VLEO) satellite architectures**, defining **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
 
-### **⚡ US Navy Guidance Systems**
+### **🔱 US Navy Guidance Systems**
 Supporting the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
 
 ### 🌊 **Autonomous Maritime Robotics**
