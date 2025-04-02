@@ -59,8 +59,8 @@ Led the development of advanced robotic systems for naval and underwater operati
 
 ### 🚀 **Space Systems Engineering**
 
-- 🌎 **VLEO Satellites – DARPA Otter Program**
-Contributed to **Very Low Earth Orbit (VLEO) satellite architectures**, defined **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
+- 🦦 **VLEO Air Breathing Satellite – DARPA Otter Program**
+Led requirements analysis and development of **Interface Control Documents (ICDs)** and **subsystem requirements**. Supported **System Requirements Review (SRR)** and developed 200+ traceable, testable system requirements. 
 
 - 🪶 **Blue Origin – Sustaining Lunar Development (SLD)**
 Led the application of Model-Based Systems Engineering (MBSE) to model Concepts of Operations (CONOPS) for human and cargo landing systems. Traced and verified system requirements within the model to ensure alignment with mission objectives and performance standards.
