@@ -21,6 +21,8 @@ This site is a collection of my projects, experiences, and insights—from orbit
 
 ## **🚀 Expertise**
 - **🦅 Former Air Force Captain** – Launch Operations, Falcon 9 Certification, X-37B Recovery Operations 
+- **📈 Project Management** – Agile, Earned Value Management (EVM), Risk Management  
+- **👥 Leadership** – Servant leadership, bridging tech development with warfighter needs
 - **🛰️ Space Systems Engineering** – LEO/VLEO satellite design  
 - **🔄 MBSE & Digital Engineering** – SysML, Cameo, Model Execution  
 - **⚙️ In-Space Manufacturing** – Automated orbital production systems  
