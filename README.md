@@ -1,6 +1,11 @@
 # **Ben Grimsley**
 ### **Systems Engineer | Space Technology | MBSE Specialist | Maritime Robotics**
-I'm a systems engineer, space enthusiast, and problem solver working at the intersection of technology, innovation, and exploration. This site is a collection of my projects, experiences, and insights—from orbital manufacturing and MBSE to cutting-edge aerospace systems.
+## Welcome!
+I'm a Systems engineer and technical program manager specializing in defense autonomy, space systems, and mission-critical robotics.  
+
+From space launch operations in the U.S. Air Force to leading autonomous maritime and satellite programs, I work at the intersection of **engineering, innovation, and national security** to rapidly field next-gen technology.
+
+This site is a collection of my projects, experiences, and insights—from orbital manufacturing and MBSE to cutting-edge aerospace systems.
 
 - 🔭 Explore my work,
 - 🌌 Discover my journey,
@@ -12,6 +17,8 @@ I'm a systems engineer, space enthusiast, and problem solver working at the inte
 
 ## **🚀 Expertise**
 - **🦅 Former Air Force Captain** – Launch Operations, Falcon 9 Certification, X-37B Recovery Operations 
+- **📈 Project Management** – Agile, Earned Value Management (EVM), Risk Management  
+- **👥 Leadership** – Servant leadership, bridging tech development with warfighter needs
 - **🛰️ Space Systems Engineering** – LEO/VLEO satellite design  
 - **🔄 MBSE & Digital Engineering** – SysML, Cameo, Model Execution  
 - **⚙️ In-Space Manufacturing** – Automated orbital production systems  
@@ -26,19 +33,37 @@ A next-generation orbital platform enabling **automated, unmanned in-space manuf
 Check out...
 
 [🔗 The Paper](docs/AOMS_Final_Report.pdf)  
-[🔗 The Presentation](docs/AOMS_Presentation.pdf)  
+[🔗 The Presentation](docs/AOMS_Presentation.pdf)     
+[🔗 The SysML Model](https://bsullgrim.github.io/AOMS/AOMS.html) 
 
-### **🌎 VLEO Satellites | DARPA Otter Program**
-Contributing to **Very Low Earth Orbit (VLEO) satellite architectures**, defining **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
+### **🔱 US Navy Guidance Systems**  
+Developing **adaptable guidance architectures** for **Conventional Prompt Strike** and **Trident** programs, applying **MBSE and SysML** to enhance system traceability, validation, and risk assessment.
 
-### **⚡ US Navy Guidance Systems**
-Supporting the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
+- **Conventional Prompt Strike** – Conducted **trade studies and system modeling** for **M-Code GPS receiver integration**, addressing **signal integrity, interface compatibility, and mission constraints**.
+- **MK 8 Guidance System CONOPS** – **Authored the Concept of Operations (CONOPS)** for the **MK 8 Guidance System** used in **Trident**, utilized **MBSE** for modeling and validation.  
 
-### **🌊 Autonomous Maritime Robotics**
-Developed **remotely operated vehicles (ROVs)** for naval applications, including:  
-- **🔧 EOD Inspection Robots** – Designed a robotic system for **explosive ordnance disposal (EOD)**  
-- **🦾 Magnetic Ballast Tank Inspection Robot** – Engineered an autonomous system for **hull inspections**  
-- **🚢 Unmanned Surface & Underwater Vehicles** – Contributed to **autonomous vehicle guidance & anchoring systems**  
+### 🌊 **Autonomous Maritime Robotics**
+Led the development of advanced robotic systems for naval and underwater operations, enhancing safety, efficiency, and operational capabilities in challenging environments:
+
+- 🔧 **URSALA2 System for TSN Automation** – Automates abrasive blasting and thermal spray non-skid coating aboard U.S. Navy amphibious ships, improving throughput, safety, and operational availability.
+
+- 🚢 **CLIMBER Hull Inspection Robot** – Autonomous robot for inspecting confined spaces in ship tanks and hulls, ensuring over 90% inspection coverage and reducing crew risk.
+
+- ⚓ **Autonomous Anchoring System for USVs** – Precision anchoring system for unmanned surface vehicles (USVs), ensuring stable positioning in challenging marine environments for operations like surveying and reconnaissance.
+
+- 💣 **Autonomous Tether Management ROV for EOD** – ROV designed for explosive ordnance disposal (EOD) operations, autonomously managing its tether to safely handle and neutralize threats.
+
+### 🚀 **Space Systems Engineering**
+
+- 🌎 **VLEO Satellites – DARPA Otter Program**
+Contributed to **Very Low Earth Orbit (VLEO) satellite architectures**, defined **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
+
+- 🪶 **Blue Origin – Sustaining Lunar Development (SLD)**
+Led the application of Model-Based Systems Engineering (MBSE) to model Concepts of Operations (CONOPS) for human and cargo landing systems. Traced and verified system requirements within the model to ensure alignment with mission objectives and performance standards.
+
+- 🌔 **NASA CLPS – CS-6 Lunar Lander Mission**
+Led the evaluation of external Integration & Test (I&T) contractors for the CS-6 lunar lander mission under NASA's Commercial Lunar Payload Services (CLPS) program. Defined technical requirements, test methodologies, and evaluation criteria, ensuring contractor capabilities met NASA and aerospace industry standards. Collaborated with internal teams and NASA payload developers to ensure mission readiness and compatibility with launch vehicle constraints.
+
 
 ## 🛠️ Skills & Tools  
 📌 **Engineering & Analysis**: MBSE, SysML, MATLAB, Simulink, Python, ROS2  
