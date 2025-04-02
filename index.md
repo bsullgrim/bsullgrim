@@ -10,10 +10,6 @@ From space launch operations in the U.S. Air Force to leading autonomous maritim
 
 This site is a collection of my projects, experiences, and insights—from orbital manufacturing and MBSE to cutting-edge aerospace systems.
 
-- 🔭 Explore my work,
-- 🌌 Discover my journey,
-- 📡 Connect and collaborate.
-
 ## **🎓 Education**
 - **M.S. in Systems Engineering**, Johns Hopkins University  
 - **B.S. in Mechanical Engineering**, Rochester Institute of Technology  
