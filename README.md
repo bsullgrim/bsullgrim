@@ -65,11 +65,13 @@ Led the application of Model-Based Systems Engineering (MBSE) to model Concepts 
 Led the evaluation of external Integration & Test (I&T) contractors for the CS-6 lunar lander mission under NASA's Commercial Lunar Payload Services (CLPS) program. Defined technical requirements, test methodologies, and evaluation criteria, ensuring contractor capabilities met NASA and aerospace industry standards. Collaborated with internal teams and NASA payload developers to ensure mission readiness and compatibility with launch vehicle constraints.
 
 
-### 🛠️ Skills & Tools  
+## 🛠️ Skills & Tools  
 📌 **Engineering & Analysis**: MBSE, SysML, MATLAB, Simulink, Python, ROS2  
 📌 **Project Management**: Agile, Earned Value (EVM), Risk Management  
 📌 **Robotics & Autonomy**: Navigation, Control Systems, Hardware-Software Integration  
 📌 **Aerospace & Space Systems**: Satellite Design, Orbital Analysis, Payload Integration  
+
+
 ---
 ## 🎯 Contact  
 📧 **Email**: [grimsley.ben@gmail.com](mailto:grimsley.ben@gmail.com)  
