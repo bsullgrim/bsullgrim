@@ -39,11 +39,16 @@ Contributing to **Very Low Earth Orbit (VLEO) satellite architectures**, definin
 ### **⚡ US Navy Guidance Systems**
 Supporting the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
 
-### **🌊 Autonomous Maritime Robotics**
-Developed **remotely operated vehicles (ROVs)** for naval applications, including:  
-- **🔧 EOD Inspection Robots** – Designed a robotic system for **explosive ordnance disposal (EOD)**  
-- **🦾 Magnetic Ballast Tank Inspection Robot** – Engineered an autonomous system for **hull inspections**  
-- **🚢 Unmanned Surface & Underwater Vehicles** – Contributed to **autonomous vehicle guidance & anchoring systems**  
+### 🌊 **Autonomous Maritime Robotics**
+Led the development of advanced robotic systems for naval and underwater operations, enhancing safety, efficiency, and operational capabilities in challenging environments:
+
+- 🔧 **URSALA2 System for TSN Automation** – Automates abrasive blasting and thermal spray non-skid coating aboard U.S. Navy amphibious ships, improving throughput, safety, and operational availability.
+
+- 🚢 **CLIMBER Hull Inspection Robot** – Autonomous robot for inspecting confined spaces in ship tanks and hulls, ensuring over 90% inspection coverage and reducing crew risk.
+
+- ⚓ **Autonomous Anchoring System for USVs** – Precision anchoring system for unmanned surface vehicles (USVs), ensuring stable positioning in challenging marine environments for operations like surveying and reconnaissance.
+
+- 💣 **Autonomous Tether Management ROV for EOD** – ROV designed for explosive ordnance disposal (EOD) operations, autonomously managing its tether to safely handle and neutralize threats.
 
 ## 🛠️ Skills & Tools  
 📌 **Engineering & Analysis**: MBSE, SysML, MATLAB, Simulink, Python, ROS2  
