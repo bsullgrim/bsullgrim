@@ -39,6 +39,14 @@ Contributing to **Very Low Earth Orbit (VLEO) satellite architectures**, definin
 ### **🔱 US Navy Guidance Systems**
 Supporting the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
 
+### 🚀 **Space Systems Engineering – Blue Origin & CLPS**
+
+#### 🪶 **Blue Origin – Sustaining Lunar Development (SLD)**
+Led the application of Model-Based Systems Engineering (MBSE) to model Concepts of Operations (CONOPS) for human and cargo landing systems. Traced and verified system requirements within the model to ensure alignment with mission objectives and performance standards.
+
+#### 🌔 **NASA CLPS – CS-6 Lunar Lander Mission**
+Led the evaluation of external Integration & Test (I&T) contractors for the CS-6 lunar lander mission under NASA's Commercial Lunar Payload Services (CLPS) program. Defined technical requirements, test methodologies, and evaluation criteria, ensuring contractor capabilities met NASA and aerospace industry standards. Collaborated with internal teams and NASA payload developers to ensure mission readiness and compatibility with launch vehicle constraints.
+
 ### 🌊 **Autonomous Maritime Robotics**
 Led the development of advanced robotic systems for naval and underwater operations, enhancing safety, efficiency, and operational capabilities in challenging environments:
 
