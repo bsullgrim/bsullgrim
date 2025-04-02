@@ -4,7 +4,6 @@ title: Welcome!
 permalink: /
 author_profile: true
 ---
-## Welcome!
 I'm a Systems engineer and technical program manager specializing in defense autonomy, space systems, and mission-critical robotics.  
 
 From space launch operations in the U.S. Air Force to leading autonomous maritime and satellite programs, I work at the intersection of **engineering, innovation, and national security** to rapidly field next-gen technology.
