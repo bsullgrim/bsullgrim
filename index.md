@@ -41,6 +41,17 @@ Check out...
 ### **🔱 US Navy Guidance Systems**
 Supported the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
 
+### 🌊 **Autonomous Maritime Robotics**
+Led the development of advanced robotic systems for naval and underwater operations, enhancing safety, efficiency, and operational capabilities in challenging environments:
+
+- 🔧 **URSALA2 System for TSN Automation** – Automates abrasive blasting and thermal spray non-skid coating aboard U.S. Navy amphibious ships, improving throughput, safety, and operational availability.
+
+- 🚢 **CLIMBER Hull Inspection Robot** – Autonomous robot for inspecting confined spaces in ship tanks and hulls, ensuring over 90% inspection coverage and reducing crew risk.
+
+- ⚓ **Autonomous Anchoring System for USVs** – Precision anchoring system for unmanned surface vehicles (USVs), ensuring stable positioning in challenging marine environments for operations like surveying and reconnaissance.
+
+- 💣 **Autonomous Tether Management ROV for EOD** – ROV designed for explosive ordnance disposal (EOD) operations, autonomously managing its tether to safely handle and neutralize threats.
+
 ### 🚀 **Space Systems Engineering**
 
 - 🌎 **VLEO Satellites – DARPA Otter Program**
@@ -52,16 +63,6 @@ Led the application of Model-Based Systems Engineering (MBSE) to model Concepts 
 - 🌔 **NASA CLPS – CS-6 Lunar Lander Mission**
 Led the evaluation of external Integration & Test (I&T) contractors for the CS-6 lunar lander mission under NASA's Commercial Lunar Payload Services (CLPS) program. Defined technical requirements, test methodologies, and evaluation criteria, ensuring contractor capabilities met NASA and aerospace industry standards. Collaborated with internal teams and NASA payload developers to ensure mission readiness and compatibility with launch vehicle constraints.
 
-### 🌊 **Autonomous Maritime Robotics**
-Led the development of advanced robotic systems for naval and underwater operations, enhancing safety, efficiency, and operational capabilities in challenging environments:
-
-- 🔧 **URSALA2 System for TSN Automation** – Automates abrasive blasting and thermal spray non-skid coating aboard U.S. Navy amphibious ships, improving throughput, safety, and operational availability.
-
-- 🚢 **CLIMBER Hull Inspection Robot** – Autonomous robot for inspecting confined spaces in ship tanks and hulls, ensuring over 90% inspection coverage and reducing crew risk.
-
-- ⚓ **Autonomous Anchoring System for USVs** – Precision anchoring system for unmanned surface vehicles (USVs), ensuring stable positioning in challenging marine environments for operations like surveying and reconnaissance.
-
-- 💣 **Autonomous Tether Management ROV for EOD** – ROV designed for explosive ordnance disposal (EOD) operations, autonomously managing its tether to safely handle and neutralize threats.
 
 ## 🛠️ Skills & Tools  
 📌 **Engineering & Analysis**: MBSE, SysML, MATLAB, Simulink, Python, ROS2  
