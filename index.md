@@ -38,13 +38,13 @@ Check out...
 [🔗 The Presentation](docs/AOMS_Presentation.pdf)     
 [🔗 The SysML Model](https://bsullgrim.github.io/AOMS/AOMS.html) 
 
-### **🌎 VLEO Satellites | DARPA Otter Program**
-Contributing to **Very Low Earth Orbit (VLEO) satellite architectures**, defining **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
-
 ### **🔱 US Navy Guidance Systems**
-Supporting the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
+Supported the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
 
-### 🚀 **Space Systems Engineering – Blue Origin & CLPS**
+### 🚀 **Space Systems Engineering
+
+- 🌎 VLEO Satellites – DARPA Otter Program
+Contributed to **Very Low Earth Orbit (VLEO) satellite architectures**, defined **subsystem requirements and interface control documents (ICDs)** for next-gen spacecraft.
 
 - 🪶 **Blue Origin – Sustaining Lunar Development (SLD)**
 Led the application of Model-Based Systems Engineering (MBSE) to model Concepts of Operations (CONOPS) for human and cargo landing systems. Traced and verified system requirements within the model to ensure alignment with mission objectives and performance standards.
