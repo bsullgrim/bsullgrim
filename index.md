@@ -38,8 +38,11 @@ Check out...
 [🔗 The Presentation](docs/AOMS_Presentation.pdf)     
 [🔗 The SysML Model](https://bsullgrim.github.io/AOMS/AOMS.html) 
 
-### **🔱 US Navy Guidance Systems**
-Supported the design of **adaptable guidance architectures** for programs like **Conventional Prompt Strike and Trident**.
+### **🔱 US Navy Guidance Systems**  
+Developing **adaptable guidance architectures** for **Conventional Prompt Strike** and **Trident** programs, applying **MBSE and SysML** to enhance system traceability, validation, and risk assessment.
+
+- **Conventional Prompt Strike** – Conducted **trade studies and system modeling** for **M-Code GPS receiver integration**, addressing **signal integrity, interface compatibility, and mission constraints**.
+- **MK 8 Guidance System CONOPS** – **Authored the Concept of Operations (CONOPS)** for the **MK 8 Guidance System** used in **Trident**, utilized **MBSE** for modeling and validation.  
 
 ### 🌊 **Autonomous Maritime Robotics**
 Led the development of advanced robotic systems for naval and underwater operations, enhancing safety, efficiency, and operational capabilities in challenging environments:
