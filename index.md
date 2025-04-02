@@ -4,7 +4,12 @@ title: Welcome!
 permalink: /
 author_profile: true
 ---
-I'm a systems engineer, space enthusiast, and problem solver working at the intersection of technology, innovation, and exploration. This site is a collection of my projects, experiences, and insights—from orbital manufacturing and MBSE to cutting-edge aerospace systems.
+## Welcome!
+I'm a Systems engineer and technical program manager specializing in defense autonomy, space systems, and mission-critical robotics.  
+
+From space launch operations in the U.S. Air Force to leading autonomous maritime and satellite programs, I work at the intersection of **engineering, innovation, and national security** to rapidly field next-gen technology.
+
+This site is a collection of my projects, experiences, and insights—from orbital manufacturing and MBSE to cutting-edge aerospace systems.
 
 - 🔭 Explore my work,
 - 🌌 Discover my journey,
