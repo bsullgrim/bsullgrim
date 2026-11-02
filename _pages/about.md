@@ -16,6 +16,9 @@ gallery_outside:
   - url: /assets/images/about-chest.jpg
     image_path: /assets/images/about-chest.jpg
     alt: "A wooden chest with black strap hinges, lid open, on a shop floor covered in shavings"
+  - url: /assets/images/about-banjo-build.jpg
+    image_path: /assets/images/about-banjo-build.jpg
+    alt: "An open-back banjo with a wooden rim and neck, standing on a stand on a wood floor"
   - url: /assets/images/about-binding.jpg
     image_path: /assets/images/about-binding.jpg
     alt: "A hand-sewn book with a green cover and exposed sewing on the spine, on a cutting mat"
@@ -25,12 +28,18 @@ gallery_outside:
   - url: /assets/images/about-nuthatch.jpg
     image_path: /assets/images/about-nuthatch.jpg
     alt: "A white-breasted nuthatch with its wings spread, leaving a peanut feeder"
+  - url: /assets/images/about-vinyl.jpg
+    image_path: /assets/images/about-vinyl.jpg
+    alt: "Three cats in front of shelves full of vinyl records, one of them sitting in a gap between the records"
   - url: /assets/images/about-banjo.jpg
     image_path: /assets/images/about-banjo.jpg
     alt: "Ben in a bush hat playing a banjo on a dock by the water"
   - url: /assets/images/about-bike.jpg
     image_path: /assets/images/about-bike.jpg
     alt: "Ben standing beside a loaded gravel bike in front of a granite bridge wall"
+  - url: /assets/images/about-potato-cannon.jpg
+    image_path: /assets/images/about-potato-cannon.jpg
+    alt: "Ben crouched beside a potato cannon as it fires, a streak of flame trailing the shot at dusk"
 ---
 
 I'm a systems engineer at Draper, where since 2023 I've worked on the interface definitions, models, and requirements that missile defense, guidance, and space programs are built and tested against, and I live in Holliston, Massachusetts, with my wife and our daughter.
@@ -51,10 +60,10 @@ I liked geometry proofs in school because they worked like logic puzzles, where 
 
 ## Outside work
 
-Outside of work and family, I run [The Holliston Ledger](/work/holliston-ledger/), a civic news publication that covers our town government from its public record, and I built [ShipWall](/work/shipwall/), a ship-traffic display at my family's cottage on the St. Lawrence Seaway that I keep running remotely. I'm a hand-tool woodworker who builds his own cabinetry, and I bind books, including a facsimile I'm making of a 1904 German book set in Fraktur, reproduced from scans page by page so that its original typography survives.
+Outside of work and family, I run [The Holliston Ledger](/work/holliston-ledger/), a civic news publication that covers our town government from its public record, and I built [ShipWall](/work/shipwall/), a ship-traffic display at my family's cottage on the St. Lawrence Seaway that I keep running remotely. I'm a hand-tool woodworker who builds his own cabinetry and has built a banjo, and I bind books, including a facsimile I'm making of a 1904 German book set in Fraktur, reproduced from scans page by page so that its original typography survives.
 
-I'm also working through a self-directed Great Books program modeled on the St. John's College curriculum, most recently Plato's *Meno* and Aeschylus's *Oresteia*, alongside a lot of science fiction, with *A Canticle for Leibowitz* and the Sun Eater series as the books I return to most. On clear nights I do astrophotography with a small telescope, I go birding when I can and take the bike on trips when there's time, and at home I collect vinyl, play the banjo, and have recently gone back to the piano.
+I'm also working through a self-directed Great Books program modeled on the St. John's College curriculum, most recently Plato's *Meno* and Aeschylus's *Oresteia*, alongside a lot of science fiction, with *A Canticle for Leibowitz* and the Sun Eater series as the books I return to most. On clear nights I do astrophotography with a small telescope, I go birding when I can and take the bike on trips when there's time, and at home I collect vinyl, share the house with our cats, play the banjo, and have recently gone back to the piano.
 
-{% include gallery id="gallery_outside" layout="third" caption="A chest from the shop, a hand-sewn binding, the Andromeda Galaxy from Holliston, a white-breasted nuthatch at the feeder, the banjo, and a bike trip in Maine." %}
+{% include gallery id="gallery_outside" layout="third" caption="A chest and a banjo from the shop, a hand-sewn binding, the Andromeda Galaxy from Holliston, a white-breasted nuthatch at the feeder, the records and the cats, the banjo on the dock, a bike trip in Maine, and a potato cannon on the Fourth of July." %}
 
 My [resume](/docs/B.Grimsley_resume.pdf) has the full detail of my work history, and email at [grimsley.ben@gmail.com](mailto:grimsley.ben@gmail.com) is the fastest way to reach me.
