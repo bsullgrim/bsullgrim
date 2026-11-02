@@ -5,7 +5,7 @@ permalink: /about/
 gallery_launch:
   - url: /assets/images/about-launch.jpg
     image_path: /assets/images/about-launch.jpg
-    alt: "A Minotaur rocket lifting off at night"
+    alt: "A Minotaur IV rocket lifting off at night carrying the ORS-5 satellite"
   - url: /assets/images/about-orion.jpg
     image_path: /assets/images/about-orion.jpg
     alt: "The Orion Ascent Abort-2 test vehicle on its stand during stacking, with a NASA flag in the foreground"
@@ -17,7 +17,7 @@ I'm a systems engineer at Draper, where since 2023 I've worked on the interface 
 
 I grew up in Fairport, outside Rochester, New York, made Eagle Scout there, and studied mechanical engineering at the Rochester Institute of Technology, graduating in 2016 and commissioning into the Air Force the same year. My first assignment was at Vandenberg, where I led a small team responsible for more than $70 million in modernization and sustainment of the base's space launch facilities, including an HVAC project that had been the unit's top readiness issue for X-37B recovery, and then moved into launch integration, leading the maintenance team that supported Minotaur I and IV booster stacking on both coasts and leading the vehicle stacking for NASA's Orion Ascent Abort-2 test, with a hand in Falcon 9 certification along the way. Standing next to the hardware showed me how much of a launch depends on agreements written down long before anyone touches the vehicle, and that paperwork, the interfaces and requirements that let separate teams build parts that fit, is where I've wanted to work ever since.
 
-{% include gallery id="gallery_launch" layout="half" caption="Launch integration: a Minotaur lifting off, and the Orion Ascent Abort-2 vehicle during stacking." %}
+{% include gallery id="gallery_launch" layout="half" caption="Launch integration: a Minotaur IV lifting off from Cape Canaveral with ORS-5 in August 2017, and the Orion Ascent Abort-2 vehicle during stacking." %}
 
 {% include figure image_path="/assets/images/about-team.jpg" alt="A group of Air Force members in uniform standing in front of two large rocket motor stages marked LOADED" caption="With my team in front of loaded rocket motor stages." %}
 
