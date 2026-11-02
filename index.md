@@ -63,8 +63,8 @@ feature_row_side:
     alt: "The Holliston Ledger masthead"
     title: "The Holliston Ledger"
     excerpt: "An independent civic news publication on my town's government, backed by a pipeline that transcribes unminuted board meetings for human fact-checking."
-    url: "https://www.hollistonledger.com/"
-    btn_label: "Read the Ledger"
+    url: "/work/holliston-ledger/"
+    btn_label: "How it's built"
 ---
 
 I'm a systems engineer at Draper, working from Holliston, Massachusetts, on the models, requirements, and interface definitions that missile defense, guidance, and space programs are built and tested against, and increasingly on the Python tooling that checks that work automatically so the people reviewing it can spend their attention on the judgment calls.
@@ -89,7 +89,7 @@ These are the principles I bring to any program, and where you can see them in t
 
 **Trust a check only after you have seen it fail.** A passing result means something only when the check behind it can fail, so I plant defects in my own checks before relying on them, watch the output people actually see as well as the processes behind it, and treat a recovery path as untested until it has rebuilt something real. *See [requirements a pipeline can verify](/work/sim-requirements-ci/) and [ShipWall](/work/shipwall/).*
 
-**Say what the evidence shows, at the level it shows it.** Draft or baselined, estimated or measured, a ranked suggestion or a decision, and saying plainly which is which keeps a document or a tool trusted after the first hard question in a review. *See [tracing requirements with NLP](/work/requirements-nlp/) and [requirements a pipeline can verify](/work/sim-requirements-ci/).*
+**Say what the evidence shows, at the level it shows it.** Draft or baselined, estimated or measured, a ranked suggestion or a decision, an unreviewed recording or approved minutes, and saying plainly which is which keeps a document or a tool trusted after the first hard question. *See [tracing requirements with NLP](/work/requirements-nlp/), [requirements a pipeline can verify](/work/sim-requirements-ci/), and [the Holliston Ledger](/work/holliston-ledger/).*
 
 **Agree on the interface before building either side.** A contract settled first lets each side be built and tested on its own, whether it is a controlled interface document, a proxy port typed from the design authority's ICD, or a browser mock that a display's firmware had to match pixel for pixel. *See [interface control](/work/interface-control/), [the test cell architecture](/work/test-cell-architecture/), and [ShipWall](/work/shipwall/).*
 
