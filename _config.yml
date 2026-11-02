@@ -17,9 +17,8 @@ title: Ben Grimsley | Systems Engineer
 email: grimsley.ben@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Systems engineer working on MBSE, interface control, requirements, and the Python tooling that checks engineering work automatically.
-twitter_username: BenSullivanG
 github_username: bsullgrim
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: false
 
 # Build settings
@@ -64,30 +63,18 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bengrimsley/" 
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/BenSullivanG"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bsullgrim"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bsullivan93"
 
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bengrimsley/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/BenSullivanG"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bsullgrim"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bsullivan93"
 
 defaults:
   # _posts

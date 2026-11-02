@@ -3,8 +3,8 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 (async () => {
-  const src = path.join(__dirname, 'src');
-  const out = path.join(__dirname, 'out');
+  const src = path.join(__dirname, process.env.SRC || 'src');
+  const out = path.join(__dirname, process.env.OUT || 'out');
   fs.mkdirSync(out, { recursive: true });
   const only = process.argv.slice(2);
   const b = await chromium.launch();

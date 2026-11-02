@@ -45,6 +45,32 @@ I first mapped the pipeline by job name from a screenshot, until a job log showe
 
 Early on, a change log claimed a sizing conflict was resolved by a requirement whose value did not resolve it, because each number looked defensible alone while the set was inconsistent, and the fix was formula-derived quantities and the value check. The review later retired most of that sizing once the simulation lead replaced a baseless campaign size, and I would now get those real inputs before building on placeholders.
 
+## An example you can look at
+
+The workbook isn't public, so here are invented requirements for a generic simulation, written to the same pattern, with every value a placeholder and none of the text drawn from the program. The verification method stays the contractual letter, and the gate and the check say separately when an automated check runs and what it asserts.
+
+{% include figure image_path="/assets/images/card-sim-ci.png" alt="Gate ladder from per-merge through nightly and on-release to milestone, with the contractual method letter set apart because it does not set the gate" caption="Where a check runs depends on how long it takes and when its answer is needed, and the contractual method letter stays separate from that choice." %}
+
+| ID | Requirement *(invented)* | Method | CI gate | What the check asserts |
+|---|---|---|---|---|
+| EX-01 | The simulation shall reject a configuration file that omits a required parameter, naming the missing parameter in its error message. | T | Per merge | A unit test feeds a file missing one parameter and asserts the error names it |
+| EX-02 | Every source file shall begin with the project's standard header block. | I | Per merge | A lint script reads each file's opening lines and fails on any missing field |
+| EX-03 | A nominal scenario shall run to completion within [placeholder] times the duration of the accepted baseline run. | T | Nightly | The ratio of run time to the baseline's, kept off merges so shared-runner load can't fail them |
+| EX-04 | In the free-flight reference case, total energy shall be conserved to within [placeholder]. | A | Nightly | An invariant check on the energy history against the analytic answer |
+| EX-05 | Fidelity metrics shall not degrade from the accepted baseline without a recorded justification. | T | On release | A comparison against the stored baseline that only a justified re-baseline can move |
+
+EX-02 shows why the two fields are separate, since an inspection requirement can be the cheapest thing to automate on every merge, while EX-03 is verified by test and still has no business blocking a merge.
+
+A withdrawn requirement keeps its row in the register, so every review comment still resolves against it.
+
+| Withdrawn | Last text | Basis | Reviewers | Content now carried by |
+|---|---|---|---|---|
+| EX-09 | The simulation shall be easy to configure. | Not verifiable as written; the underlying need is covered by the configuration-error requirement | Task lead, simulation lead | EX-01 |
+
+Each consistency check on the workbook earned its place the same way before its clean result counted.
+
+{% include figure image_path="/assets/images/sim-ci-proving-a-check.png" alt="Five-step loop for an invented check: plant a defect, the check must fail, remove the defect, the check must pass, then the check is trusted" caption="Proving an invented check before trusting it. A check that passes with the defect in place gets fixed and planted again." %}
+
 ## Artifacts
 
 I can't share the documents, and any diagrams here are illustrations with no program data.

@@ -6,20 +6,23 @@ FONT_DIR = "/usr/share/fonts/opentype/inter/"
 FAMILY = "Inter, 'Helvetica Neue', Arial, sans-serif"
 MONO_FAMILY = "'DejaVu Sans Mono', Menlo, Consolas, monospace"
 
-# Palette: navy brand with one warm accent and one teal secondary lane.
-NAVY = "#1f3864"
-NAVY_T1 = "#e8edf6"   # lightest tint
-NAVY_T2 = "#cdd8ea"
-NAVY_T3 = "#9fb3d4"
-INK = "#1d2433"
-MUTED = "#5b6475"
-LINE = "#8a93a3"
-FILL = "#f4f6fa"
-STROKE = "#c3cbd8"
-AMBER = "#a3550f"
-AMBER_T = "#fbefe3"
-TEAL = "#1f6f78"
-TEAL_T = "#e6f2f3"
+import os as _os
+THEME = _os.environ.get("THEME", "dark")
+
+if THEME == "light":
+    PAPER = "#ffffff"; NAVY = "#1f3864"; EMPH = "#1f3864"
+    NAVY_T1 = "#e8edf6"; NAVY_T2 = "#cdd8ea"; NAVY_T3 = "#9fb3d4"
+    INK = "#1d2433"; MUTED = "#5b6475"; LINE = "#8a93a3"; FILL = "#f4f6fa"; STROKE = "#c3cbd8"
+    AMBER = "#a3550f"; AMBER_T = "#fbefe3"; TEAL = "#1f6f78"; TEAL_T = "#e6f2f3"
+    BADGE_TEXT = "#ffffff"; TRACK = "#e6e9ef"; CONTAINER = "#fafbfd"
+    CHART_BG = "#fcfcfb"; GRID = "#e6e8ec"; AXIS = "#9aa1ad"; BAR = "#2a78d6"; ON_EMPH = "#dfe6f2"
+else:  # matches the Minimal Mistakes dark skin (#252a34 background)
+    PAPER = "#252a34"; NAVY = "#8db0ea"; EMPH = "#2d4a7a"
+    NAVY_T1 = "#2c3850"; NAVY_T2 = "#34456a"; NAVY_T3 = "#55709f"
+    INK = "#eaeaea"; MUTED = "#a9b1bf"; LINE = "#808a9c"; FILL = "#2f3542"; STROKE = "#4a5366"
+    AMBER = "#e6a865"; AMBER_T = "#43372a"; TEAL = "#4cc6cd"; TEAL_T = "#1f3c41"
+    BADGE_TEXT = "#252a34"; TRACK = "#3a4150"; CONTAINER = "#2a303b"
+    CHART_BG = "#252a34"; GRID = "#363d4a"; AXIS = "#808a9c"; BAR = "#3987e5"; ON_EMPH = "#dfe6f2"
 WHITE = "#ffffff"
 
 _fonts = {}
@@ -64,7 +67,8 @@ W_ATTR = {"regular": "400", "medium": "500", "semibold": "600", "bold": "700"}
 
 
 class SVG:
-    def __init__(self, w, h, bg=WHITE):
+    def __init__(self, w, h, bg=None):
+        bg = bg or PAPER
         self.w, self.h, self.parts = w, h, []
         self.parts.append(f'<rect x="0" y="0" width="{w}" height="{h}" fill="{bg}"/>')
 
@@ -138,7 +142,7 @@ class SVG:
   <marker id="open" viewBox="0 0 16 16" refX="14" refY="8" markerWidth="22" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto">
     <path d="M2,2 L14,8 L2,14" fill="none" stroke="{INK}" stroke-width="2"/></marker>
   <marker id="tri" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="30" markerHeight="30" markerUnits="userSpaceOnUse" orient="auto">
-    <path d="M2,2 L18,10 L2,18 z" fill="{WHITE}" stroke="{INK}" stroke-width="2"/></marker>
+    <path d="M2,2 L18,10 L2,18 z" fill="{PAPER}" stroke="{INK}" stroke-width="2"/></marker>
 </defs>'''
 
     def line(self, pts, color=LINE, sw=3, dash=None, marker=None, marker_start=None):
@@ -150,7 +154,7 @@ class SVG:
 
     def badge(self, cx, cy, n, r=19, fill=AMBER):
         self.add(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{fill}"/>')
-        self.text(cx, cy + 8, str(n), 22, fill=WHITE, weight="bold", anchor="middle")
+        self.text(cx, cy + 8, str(n), 22, fill=BADGE_TEXT, weight="bold", anchor="middle")
 
     def cylinder(self, x, y, w, h, title, sub=None, fill=FILL, stroke=STROKE, tsize=24, ssize=20):
         e = 14

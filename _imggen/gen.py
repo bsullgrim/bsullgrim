@@ -32,16 +32,16 @@ def card_interface_control():
     for x, y, t, sub in sats:
         s.block(x, y, sw_, sh_, t, sub, tsize=40, ssize=27)
     # centre clause
-    s.rect(x0, y0, cw, ch, fill=NAVY, stroke=NAVY, rx=20)
+    s.rect(x0, y0, cw, ch, fill=EMPH, stroke=EMPH, rx=20)
     s.text(cx, y0 + 92, "Clause value", 50, fill=WHITE, weight="bold", anchor="middle")
-    s.text(cx, y0 + 145, "what the interface is, and nothing else", 27, fill="#dfe6f2", anchor="middle")
+    s.text(cx, y0 + 145, "what the interface is, and nothing else", 27, fill=ON_EMPH, anchor="middle")
     chips = ["Committed", "TBR", "TBD"]
     cwid = [width(c, 28, "bold") + 44 for c in chips]
     total = sum(cwid) + 24 * 2
     x = cx - total / 2
     for c, w in zip(chips, cwid):
         s.rect(x, y0 + 200, w, 64, fill=WHITE, stroke=WHITE, rx=32)
-        s.text(x + w / 2, y0 + 242, c, 28, fill=NAVY, weight="bold", anchor="middle")
+        s.text(x + w / 2, y0 + 242, c, 28, fill=EMPH, weight="bold", anchor="middle")
         x += w + 24
     save("card-interface-control.svg", s)
 
@@ -60,7 +60,7 @@ def card_test_cells():
     ]
     for i, (x, (t, sub)) in enumerate(zip(xs, labels)):
         if i == 0:
-            s.block(x, y, bw, bh, t, sub, tsize=34, ssize=24, fill=WHITE, stroke=LINE, dash="10 8")
+            s.block(x, y, bw, bh, t, sub, tsize=34, ssize=24, fill=PAPER, stroke=LINE, dash="10 8")
         else:
             s.block(x, y, bw, bh, t, sub, tsize=34, ssize=24, fill=NAVY_T1, stroke=NAVY_T3)
         if i < 3:
@@ -70,10 +70,10 @@ def card_test_cells():
     for x in xs[1:]:
         s.line([(x + bw / 2, y + bh), (x + bw / 2, ty)], color=NAVY_T3, sw=3, dash="8 7")
         s.add(f'<circle cx="{x + bw / 2}" cy="{ty}" r="7" fill="{NAVY}"/>')
-    s.rect(65, ty, 1470, 200, fill=NAVY, stroke=NAVY, rx=18)
+    s.rect(65, ty, 1470, 200, fill=EMPH, stroke=EMPH, rx=18)
     s.text(800, ty + 82, "Requirements traceability", 40, fill=WHITE, weight="bold", anchor="middle")
     s.text(800, ty + 135, "each requirement traced through use cases and activities to the structure, with gaps marked",
-           26, fill="#dfe6f2", anchor="middle")
+           26, fill=ON_EMPH, anchor="middle")
     save("card-test-cells.svg", s)
 
 
@@ -149,7 +149,7 @@ def card_sim_ci():
     s = SVG(1600, 900)
     lx, lw, rh, gap, top = 260, 900, 150, 30, 100
     rungs = [
-        ("Milestone", "acceptance set when its trigger arrives", NAVY, WHITE, "#dfe6f2"),
+        ("Milestone", "acceptance set when its trigger arrives", EMPH, WHITE, ON_EMPH),
         ("On release", "measured figures recorded with the release", NAVY_T3, INK, INK),
         ("Nightly", "timing ratios and longer runs, kept off merges so runner load can't fail them", NAVY_T2, INK, MUTED),
         ("Per merge", "fast static and short-run checks that block the merge", NAVY_T1, INK, MUTED),
@@ -198,9 +198,9 @@ def card_nlp():
     s.line([(bus_r, ys[0] + shh / 2), (bus_r, ys[3] + shh / 2)], color=NAVY, sw=4)
     mid = (ys[0] + ys[3] + shh) / 2
     s.line([(bus_r, mid), (1176, mid)], color=NAVY, sw=4, marker="arrN")
-    s.rect(1180, mid - 130, 370, 260, fill=NAVY, stroke=NAVY, rx=18)
+    s.rect(1180, mid - 130, 370, 260, fill=EMPH, stroke=EMPH, rx=18)
     s.text(1365, mid - 52, "Ranked matches", 36, fill=WHITE, weight="bold", anchor="middle")
-    s.lines(1365, mid + 6, ["top five per requirement,", "each with its reasons"], 26, lh=36, fill="#dfe6f2", anchor="middle")
+    s.lines(1365, mid + 6, ["top five per requirement,", "each with its reasons"], 26, lh=36, fill=ON_EMPH, anchor="middle")
     # quality lane
     qy = 690
     s.line([(50, 225), (24, 225), (24, qy + 75), (636, qy + 75)], color=TEAL, sw=4, marker="arrT")
@@ -252,14 +252,14 @@ def nlp_pipeline():
     s.line([(785, bus), (785, sy1 - 4)], color=NAVY, sw=3, marker="arrN")
     for (x, y), (t, sub) in zip(pos, scorers):
         s.block(x, y, 435, sh, t, sub, tsize=T, ssize=S)
-        s.rect(x + 435 - 78, y + 12, 64, 32, fill=WHITE, stroke=STROKE, rx=16)
+        s.rect(x + 435 - 78, y + 12, 64, 32, fill=PAPER, stroke=STROKE, rx=16)
         s.text(x + 435 - 46, y + 35, "0–1", 19, fill=MUTED, anchor="middle")
     # combination
     yc, hc = 900, 140
     s.line([(560, sy2 + sh), (560, yc - 4)], color=NAVY, sw=3, marker="arrN")
-    s.rect(110, yc, 900, hc, fill=NAVY, stroke=NAVY, rx=16)
+    s.rect(110, yc, 900, hc, fill=EMPH, stroke=EMPH, rx=16)
     s.text(560, yc + 60, "Weighted combination", T + 2, fill=WHITE, weight="bold", anchor="middle")
-    s.text(560, yc + 102, "top five per requirement, with an explanation for every pair", S, fill="#dfe6f2", anchor="middle")
+    s.text(560, yc + 102, "top five per requirement, with an explanation for every pair", S, fill=ON_EMPH, anchor="middle")
     # outputs
     yo, ho = 1110, 140
     s.line([(330, yc + hc), (330, yo - 4)], color=NAVY, sw=3, marker="arrN")
@@ -270,7 +270,7 @@ def nlp_pipeline():
     ye, he = 1330, 140
     s.line([(330, yo + ho), (330, ye - 4)], color=LINE, sw=3, dash="9 8", marker="arrG")
     s.block(110, ye, 900, he, "Evaluation", "Hit@k, MRR, and precision, recall, and F1 at k against the manual traces",
-            tsize=T, ssize=S, fill=WHITE, stroke=LINE, dash="10 8")
+            tsize=T, ssize=S, fill=PAPER, stroke=LINE, dash="10 8")
     s.line([(110, ye + he / 2), (60, ye + he / 2), (60, y1 + h1 / 2), (106, y1 + h1 / 2)], color=LINE, sw=3, dash="9 8",
            marker="arrG")
     s.text(44, (ye + y1 + h1) / 2, "answer key", 22, fill=MUTED, anchor="middle", rotate=-90, italic=True)
@@ -294,7 +294,7 @@ def shipwall_architecture():
     s.block(30, 170, 270, 130, "AISStream", "WebSocket feed", tsize=T + 2, ssize=S)
     # Pi container
     px, py, pw, ph = 380, 60, 760, 760
-    s.rect(px, py, pw, ph, fill="#fafbfd", stroke=NAVY_T3, sw=2.5, rx=22)
+    s.rect(px, py, pw, ph, fill=CONTAINER, stroke=NAVY_T3, sw=2.5, rx=22)
     s.text(px + 28, py + 40, "Raspberry Pi 3B", 28, weight="bold", fill=NAVY)
     s.rect(px + 15, 112, 730, 190, fill="none", stroke=NAVY_T3, sw=1.5, rx=12, dash="6 6")
     s.text(px + 30, 288, "register_service.py", 20, fill=MUTED, mono=True)
@@ -322,10 +322,10 @@ def shipwall_architecture():
     # ops strip
     oy, oh = 660, 130
     s.block(px + 30, oy, 220, oh, "deploy.sh", "ff-only pull, compile gate", tsize=T - 3, ssize=S - 2, tmono=True,
-            fill=WHITE)
-    s.block(px + 270, oy, 210, oh, "backup.sh", "hourly timer", tsize=T - 3, ssize=S - 2, tmono=True, fill=WHITE)
+            fill=PAPER)
+    s.block(px + 270, oy, 210, oh, "backup.sh", "hourly timer", tsize=T - 3, ssize=S - 2, tmono=True, fill=PAPER)
     s.block(px + 495, oy, 245, oh, "panel-watchdog.sh", "systemd timer, every minute", tsize=19, ssize=S - 2,
-            tmono=True, fill=WHITE)
+            tmono=True, fill=PAPER)
     s.badge(px + 722, oy + 6, 3)
     # display band
     ex, ew = 1480, 290
@@ -345,7 +345,7 @@ def shipwall_architecture():
     s.text(1310, 416, "wire contract", S, fill=INK, anchor="middle")
     s.line([(1310, 330), (1310, by + 170)], color=AMBER, sw=2.5, dash="8 7")
     s.block(ex, 520, ew, 140, "register_panel.py", "browser mock, the reference renderer", tsize=T - 3, ssize=S - 1,
-            tmono=True, fill=WHITE, stroke=AMBER, dash="10 8")
+            tmono=True, fill=PAPER, stroke=AMBER, dash="10 8")
     s.line([(ex, 590), (1310, 590), (1310, 454)], color=AMBER, sw=2.5, dash="8 7")
     s.text(1310, 630, "implements the same contract", S, fill=AMBER, anchor="middle", italic=True)
     # outbound
@@ -375,14 +375,13 @@ def shipwall_architecture():
 
 # ---------------------------------------------------------------- chart: ShipWall incidents by month
 def shipwall_incidents(data):
-    s = SVG(1200, 640, bg="#fcfcfb")
-    BAR = "#2a78d6"   # dataviz reference palette, slot 1
+    s = SVG(1200, 640, bg=CHART_BG)
     left, right, top, bottom = 120, 1150, 70, 540
     ymax = 15
     def yv(v): return bottom - (bottom - top) * v / ymax
     for t in range(0, ymax + 1, 5):
         y = yv(t)
-        s.line([(left, y), (right, y)], color="#e6e8ec" if t else "#9aa1ad", sw=1.5 if t else 2)
+        s.line([(left, y), (right, y)], color=GRID if t else AXIS, sw=1.5 if t else 2)
         s.text(left - 16, y + 8, str(t), 22, fill=MUTED, anchor="end")
     s.text(40, (top + bottom) / 2, "Incidents logged", 22, fill=MUTED, anchor="middle", rotate=-90)
     n = len(data)
@@ -398,7 +397,7 @@ def shipwall_incidents(data):
         s.text(cx, bottom + 38, m, 24, fill=INK, anchor="middle")
     # unattended marker between first and second month
     mx = left + slot
-    s.line([(mx, top - 20), (mx, bottom)], color="#9aa1ad", sw=2, dash="7 6")
+    s.line([(mx, top - 20), (mx, bottom)], color=AXIS, sw=2, dash="7 6")
     s.text(mx + 12, top - 6, "running unattended from early July", 21, fill=MUTED)
     s.text(left + slot * 0.5, bottom + 74, "includes bench bring-up", 20, fill=MUTED, anchor="middle", italic=True)
     save("shipwall-incidents-by-month.svg", s)
@@ -426,7 +425,7 @@ def chips(s, x, y, maxw, items, size=22, filled=True, gap=10, h=40, fill=NAVY_T1
         if cx + w > x + maxw:
             cx, cy = x, cy + h + gap
         if it in outline_items:
-            s.rect(cx, cy, w, h, fill=WHITE, stroke=LINE, sw=2, rx=h / 2, dash="5 4")
+            s.rect(cx, cy, w, h, fill=PAPER, stroke=LINE, sw=2, rx=h / 2, dash="5 4")
             s.text(cx + w / 2, cy + h / 2 + 8, it, size, fill=MUTED, weight="medium", anchor="middle")
         else:
             s.rect(cx, cy, w, h, fill=fill, stroke=stroke, sw=1.5, rx=h / 2)
@@ -451,12 +450,12 @@ def nlp_f19():
     cards = [("BM25", 0.808, "Shared rare terms"), ("Semantic", 0.770, "Word-vector similarity"),
              ("Domain", 1.000, "Vocabulary and learned relationships"), ("Query expansion", 0.778, "Activity widened with synonyms")]
     for x, (name, sc, sub) in zip(xs, cards):
-        s.rect(x, top, cw, ch, fill=WHITE, stroke=STROKE, rx=16)
+        s.rect(x, top, cw, ch, fill=PAPER, stroke=STROKE, rx=16)
         s.text(x + 28, top + 56, name, 32, weight="bold")
         s.lines(x + 28, top + 94, wrap(sub, 22, cw - 56), 22, lh=28, fill=MUTED)
         bw = cw - 56 - 86
-        s.rect(x + 28, top + 140, bw, 14, fill="#e6e9ef", stroke="#e6e9ef", sw=0, rx=7)
-        s.rect(x + 28, top + 140, max(14, bw * sc), 14, fill=NAVY, stroke=NAVY, sw=0, rx=7)
+        s.rect(x + 28, top + 140, bw, 14, fill=TRACK, stroke=TRACK, sw=0, rx=7)
+        s.rect(x + 28, top + 140, max(14, bw * sc), 14, fill=EMPH, stroke=EMPH, sw=0, rx=7)
         s.text(x + cw - 28, top + 157, f"{sc:.2f}", 30, weight="bold", fill=NAVY, anchor="end")
     inner = cw - 56
     # BM25
@@ -489,10 +488,80 @@ def nlp_f19():
             fill=MUTED, italic=True)
     # footer
     fy = top + ch + 40
-    s.rect(40, fy, 1520, 110, fill=NAVY, stroke=NAVY, rx=18)
+    s.rect(40, fy, 1520, 110, fill=EMPH, stroke=EMPH, rx=18)
     s.text(80, fy + 68, "Ranked first of the five candidates the matcher kept for F.19", 30, fill=WHITE, weight="bold")
-    s.text(1520, fy + 68, "terms are lemmas, so data appears as datum", 22, fill="#dfe6f2", anchor="end", italic=True)
+    s.text(1520, fy + 68, "terms are lemmas, so data appears as datum", 22, fill=ON_EMPH, anchor="end", italic=True)
     save("nlp-f19-explanation.svg", s)
 
 
 nlp_f19()
+
+
+# ---------------------------------------------------------------- example (invented): swimlane activity for a test cell
+def example_activity():
+    s = SVG(1600, 760)
+    s.text(40, 52, "Invented example: a power-on functional test, drawn the way each test cell's behavioral view is", 24, fill=MUTED, italic=True)
+    lanes = [("Test operator", 90), ("Test cell", 300), ("Unit under test", 510)]
+    lh = 210
+    for name, y in lanes:
+        s.rect(40, y, 1540, lh, fill=PAPER, stroke=STROKE, rx=0, sw=1.5)
+        s.rect(40, y, 170, lh, fill=FILL, stroke=STROKE, rx=0, sw=1.5)
+        s.lines(125, y + lh / 2 - (len(wrap(name, 24, 140, weight="semibold")) - 1) * 15 + 8,
+                wrap(name, 24, 140, weight="semibold"), 24, lh=30, anchor="middle", weight="semibold")
+    cy = {"op": 195, "cell": 405, "uut": 615}
+    w, h = 180, 104
+    steps = [("op", 280, "Start the procedure"), ("cell", 490, "Apply power to the unit"),
+             ("uut", 700, "Run built-in test and report status"), ("cell", 910, "Evaluate status against limits"),
+             ("cell", 1120, "Record test data"), ("op", 1330, "Review the results")]
+    # initial and final nodes
+    s.add(f'<circle cx="246" cy="{cy["op"]}" r="13" fill="{INK}"/>')
+    s.line([(259, cy["op"]), (276, cy["op"])], color=NAVY, sw=3, marker="arrN")
+    for i, (lane, x, t) in enumerate(steps):
+        y = cy[lane] - h / 2
+        s.block(x, y, w, h, t, None, tsize=22, fill=NAVY_T1, stroke=NAVY_T3, rx=26, pad=14, tweight="semibold")
+        if i + 1 < len(steps):
+            nl, nx, _ = steps[i + 1]
+            x1, y1, x2, y2 = x + w, cy[lane], nx, cy[nl]
+            xm = (x1 + x2) / 2
+            pts = [(x1, y1), (x2 - 4, y2)] if y1 == y2 else [(x1, y1), (xm, y1), (xm, y2), (x2 - 4, y2)]
+            s.line(pts, color=NAVY, sw=3, marker="arrN")
+    fx = 1330 + w + 40
+    s.line([(1330 + w, cy["op"]), (fx - 20, cy["op"])], color=NAVY, sw=3, marker="arrN")
+    s.add(f'<circle cx="{fx}" cy="{cy["op"]}" r="16" fill="none" stroke="{INK}" stroke-width="3"/>')
+    s.add(f'<circle cx="{fx}" cy="{cy["op"]}" r="9" fill="{INK}"/>')
+    tags = [(490, "stimulus"), (700, "response"), (910, "evaluation"), (1120, "recording")]
+    for x, t in tags:
+        lane_y = cy["uut"] if t == "response" else cy["cell"]
+        s.text(x + w / 2, lane_y + h / 2 + 32, t, 20, fill=AMBER, anchor="middle", italic=True)
+    save("test-cells-example-activity.svg", s)
+
+
+# ---------------------------------------------------------------- example (invented): proving a check before trusting it
+def example_proving_check():
+    s = SVG(1600, 460)
+    s.text(40, 52, "Invented example: a check that every requirement's verification method is one of T, D, A, or I", 24, fill=MUTED, italic=True)
+    steps = [("Plant a defect", "set one requirement's method to X"), ("The check must fail", "and name that requirement"),
+             ("Remove the defect", "restore the original value"), ("The check must pass", "on the clean workbook"),
+             ("Trusted", "a clean result now means something")]
+    w, h, gap, y = 270, 170, 50, 110
+    x0 = (1600 - (5 * w + 4 * gap)) / 2
+    for i, (t, sub) in enumerate(steps):
+        x = x0 + i * (w + gap)
+        if i == 4:
+            s.rect(x, y, w, h, fill=EMPH, stroke=EMPH, rx=18)
+            s.text(x + w / 2, y + 72, t, 32, fill=WHITE, weight="bold", anchor="middle")
+            s.lines(x + w / 2, y + 112, wrap(sub, 22, w - 40), 22, lh=28, fill=ON_EMPH, anchor="middle")
+        else:
+            s.block(x, y, w, h, t, sub, tsize=28, ssize=22, fill=NAVY_T1, stroke=NAVY_T3)
+        if i < 4:
+            s.line([(x + w + 4, y + h / 2), (x + w + gap - 6, y + h / 2)], color=NAVY, sw=4, marker="arrN")
+    # failure loop under steps 1-2
+    x1 = x0 + w / 2; x2 = x0 + (w + gap) + w / 2; yb = y + h + 70
+    s.line([(x2, y + h + 4), (x2, yb), (x1, yb), (x1, y + h + 8)], color=AMBER, sw=3, dash="9 7", marker="arrG")
+    s.lines((x1 + x2) / 2, yb + 44, ["passes with the defect in place?", "fix the check, then plant again"], 22, lh=30,
+            fill=AMBER, anchor="middle", italic=True)
+    save("sim-ci-proving-a-check.svg", s)
+
+
+example_activity()
+example_proving_check()

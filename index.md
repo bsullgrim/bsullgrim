@@ -54,7 +54,7 @@ feature_row_side:
     url: "/work/shipwall/"
     btn_label: "Read more"
   - image_path: /assets/images/card-aoms.png                # screenshot of the published SysML model
-    alt: "Screenshot of the AOMS SysML model"
+    alt: "The AOMS operational view (OV-1), showing the platform from launch through manufacturing, resupply, and product return"
     title: "An orbital factory, modeled"
     excerpt: "My Johns Hopkins capstone, an MBSE-driven concept for automated ZBLAN fiber production in orbit, with the full SysML model published to click through."
     url: "/work/aoms/"
@@ -81,18 +81,17 @@ I'm a systems engineer at Draper, working from Holliston, Massachusetts, on the 
 
 ## How I work
 
-These are the principles I keep coming back to, each learned on something I built, ran, or had to defend in a review.
+These are the principles I bring to any program, and where you can see them in the work.
 
-**Show reviewers one scenario they can follow end to end.** When I briefed the four-view method for the MK 8 test cells, I walked a single scenario from use case through behavior and interfaces to the requirements matrix, with the draft items named up front, because reviewers are persuaded more by one path they can follow than by coverage they have to take on trust, and the method was endorsed and carried across the priority cells into System Functional Review.
+**Make the reasoning easy to inspect.** A decision is only as useful as the next person's ability to check it, so I keep the why beside the what, whether that means a rationale document and an open-items ledger behind every interface value, an explanation behind every match an automated tool proposes, or a trace from each requirement back to the need it serves. *See [interface control](/work/interface-control/) and [tracing requirements with NLP](/work/requirements-nlp/).*
 
-**Keep what an interface is apart from why it is that way.** Every value in the interface control document I own on a defense space program is a contract statement with a closed status of Committed, TBR, or TBD, while its reasoning, open questions, and history each live in exactly one other place, so the document can be walked to a baseline one value at a time.
+**Prove it small before asking anyone to adopt it.** A working example on real material persuades reviewers in a way a framework on a slide never does, so I build one first, walk people through it end to end, and propose the larger version only after it has held up. *See [the test cell architecture](/work/test-cell-architecture/) and [tracing requirements with NLP](/work/requirements-nlp/).*
 
-<!-- Keep this one only once question 5 in the NLP notes is confirmed. -->
-**Score a tool against the hardest honest test available, and say what that test cannot see.** I reported the NLP pipeline's run on program data over earlier demo runs that scored higher, because the demo run's domain knowledge had been learned from the same traces it was graded against, and I said on the record that the answer key was the same inconsistent manual tracing the tool was built to improve.
+**Trust a check only after you have seen it fail.** A passing result means something only when the check behind it can fail, so I plant defects in my own checks before relying on them, watch the output people actually see as well as the processes behind it, and treat a recovery path as untested until it has rebuilt something real. *See [requirements a pipeline can verify](/work/sim-requirements-ci/) and [ShipWall](/work/shipwall/).*
 
-**A check earns trust only once something can fail it.** Every consistency check on the simulation requirements workbook had to fail on a planted defect before its clean result counted, and the one rule with no check behind it, keeping the verification method separate from automation, was broken in fourteen requirements by the same revision that stated it.
+**Say what the evidence shows, at the level it shows it.** Draft or baselined, estimated or measured, a ranked suggestion or a decision, and saying plainly which is which keeps a document or a tool trusted after the first hard question in a review. *See [tracing requirements with NLP](/work/requirements-nlp/) and [requirements a pipeline can verify](/work/sim-requirements-ci/).*
 
-**A recovery path is untested until it has rebuilt something real.** On ShipWall, the first rebuild from the repository after I wrote the restore script showed that the backup script had lost its executable bit, the backup timer reset on every reboot, and the restore skipped three install steps, none of which reading the configuration files had shown.
+**Agree on the interface before building either side.** A contract settled first lets each side be built and tested on its own, whether it is a controlled interface document, a proxy port typed from the design authority's ICD, or a browser mock that a display's firmware had to match pixel for pixel. *See [interface control](/work/interface-control/), [the test cell architecture](/work/test-cell-architecture/), and [ShipWall](/work/shipwall/).*
 
 ## Side projects
 

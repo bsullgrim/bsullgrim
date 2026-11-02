@@ -71,6 +71,29 @@ Preparing the SFR brief was where my own approach needed the most correction, be
 
 I came away convinced that reviewers are persuaded more by one scenario they can follow than by coverage they have to take on trust, and that naming draft items as expected builds more credibility than defending them. If I started again I would build the walkthrough first and write the framework around it, and I would bring the test and V&V planners into the model at the outset instead of learning afterward that they weren't using it.
 
+## An example you can look at
+
+The test cells and their specifications aren't public, so here is one invented scenario carried through the same views, for a power-on functional test of a generic unit, with nothing in it drawn from the program.
+
+{% include figure image_path="/assets/images/test-cells-example-activity.png" alt="Swimlane activity diagram for an invented power-on functional test, with lanes for the test operator, the test cell, and the unit under test" caption="The behavioral view for the invented scenario, with the stimulus, response, evaluation, and recording steps every cell's activities carry." %}
+
+The use case specification that drives it follows the same template as the priority cells, with only the alternate flows that matter.
+
+**Use case: Run a power-on functional test** *(invented)*
+
+- **Primary actor:** Test operator. **Supporting actors:** the test cell and the unit under test.
+- **Preconditions:** the unit is installed and connected through its interface adapter, and the test cell has passed its self-check within the last day.
+- **Main success scenario:**
+  1. The operator starts the procedure.
+  2. The test cell applies power to the unit within its input limits.
+  3. The unit runs its built-in test and reports status.
+  4. The test cell evaluates the status against the limits for this test type.
+  5. The test cell records the test data against the unit's serial number.
+  6. The operator reviews the results and closes the procedure.
+- **Alternate flow 4a:** the status falls outside its limits, so the test cell removes power, records the failure, and flags the unit for review before the operator continues.
+- **Postconditions:** the test data is recorded and traced to the requirement it verifies.
+- **Traceability:** the use case refines the invented requirement "The test cell shall verify the unit's built-in test status at power-on," which the power supply and data recorder blocks satisfy.
+
 ## Artifacts
 
 The models and documents themselves aren't public, so these figures show the method with generic content and no program data.

@@ -50,6 +50,42 @@ Over its first three months the draft went through more than thirty logged worki
 
 The steepest part of the learning curve was avionics itself, since most of my earlier interface work, on DARPA's Otter satellite and the Trident MK 8 guidance system, sat at the system level, and owning an avionics specification asks for more depth on the electrical and data side of an interface than I had needed before. The broader lesson is one I keep relearning on every program, which is that the time spent building a worked pattern before the first real document pays for itself many times over, because it turns each new interface area from a blank page into a comparison against something already thought through.
 
+## An example you can look at
+
+The program's documents aren't public, so here is the same structure applied to an interface I invented for this page, between a payload camera and the flight computer on a small satellite, with every value made up and none of it taken from a real program.
+
+{% include figure image_path="/assets/images/card-interface-control.png" alt="Diagram of a clause value with its status, surrounded by the rationale document, open-items ledger, revision history, and archives that hold everything else" caption="Each clause carries only its value and status, and everything else about it has exactly one home." %}
+
+The clauses say what the interface is and nothing more, each with one of the three statuses.
+
+| Clause | Parameter | Value | Status |
+|---|---|---|---|
+| 3.1.1 | Command link signaling | RS-422, per TIA-422-B | Committed |
+| 3.1.2 | Command link data rate | 115.2 kbit/s | TBR |
+| 3.1.3 | Housekeeping telemetry rate | 1 Hz | TBR |
+| 3.2.1 | Image data link | TBD | TBD |
+| 3.3.1 | Camera input voltage | 28 V ± 4 V, from the spacecraft bus | TBR |
+| 3.5.1 | Connector | TBD | TBD |
+
+Clause 3.1.1 is Committed because its value comes from a published standard and no program decision can change it, while 3.1.2 is a working position that a vendor or the working group still has to confirm. The open-items ledger holds the questions, keyed to the clause they affect, with the evidence that would close each one.
+
+| Item | Clause | Open question | Closes when |
+|---|---|---|---|
+| OI-04 | 3.1.2 | Can the camera's controller sustain 115.2 kbit/s with command acknowledgment? | The vendor confirms in writing, or a bench test at that rate drops no frames |
+| OI-07 | 3.2.1 | SpaceWire or LVDS for image data? | The working group chooses after the flight computer team sizes its input card |
+
+The reasoning lives in the rationale document, where a reviewer who wants the because can find it without it cluttering the contract.
+
+> **R-3.1.2.** 115.2 kbit/s is the highest standard rate the flight computer's serial ports support without a dedicated controller. 57.6 kbit/s was considered and set aside because uploading a full command table would overrun the two-second command window.
+
+The revision history records what changed and what it replaced.
+
+| Rev | Change | Replaces |
+|---|---|---|
+| —.4 | 3.1.2 raised from 57.6 to 115.2 kbit/s; derivation moved to R-3.1.2 | the —.3 value |
+
+At baselining, OI-04 closes one of three ways: the vendor confirms 115.2 kbit/s and the clause becomes Committed as written, the parties settle on a different rate and it becomes Committed at that value, or more information is needed and it stays TBR with its closure driver updated.
+
 ## Artifacts
 
-The program's documents aren't public, so the diagrams on this page show the method, the four-artifact structure, and the split between contract values, rationale, open items, and history, with no program content. The framework behind the document set is described in the NASA Systems Engineering Handbook (NASA/SP-2016-6105 Rev 2), section 6.3, Interface Management.
+The framework behind the document set is described in the NASA Systems Engineering Handbook (NASA/SP-2016-6105 Rev 2), section 6.3, Interface Management.
