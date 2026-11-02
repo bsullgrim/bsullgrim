@@ -9,7 +9,7 @@ header:
       url: "/docs/B.Grimsley_resume.pdf"
     - label: "Email me"
       url: "mailto:grimsley.ben@gmail.com"
-excerpt: "Systems engineer working on MBSE, interface control, and the tooling that checks engineering work automatically."
+excerpt: "Systems engineer at Draper, on programs from Trident II and Blue Origin's lunar lander to DARPA's Otter satellite."
 
 # --- Selected work: one full-width row per case study, alternating image side ---
 feature_row_gd:
@@ -50,7 +50,7 @@ feature_row_side:
   - image_path: /assets/images/card-shipwall.jpg
     alt: "ShipWall LED display showing the freighter CSL Niagara underway"
     title: "ShipWall"
-    excerpt: "A live AIS ship-traffic display I built and run alone at my family's cottage on the St. Lawrence Seaway, with three layers of watchdogs, gated deploys, and a 20-entry incident log."
+    excerpt: "A live AIS ship-traffic display I built and operate solo at my family's cottage on the St. Lawrence Seaway, with three layers of watchdogs, gated deploys, and a 20-entry incident log."
     url: "/work/shipwall/"
     btn_label: "Read more"
   - image_path: /assets/images/card-aoms.png                # screenshot of the published SysML model
@@ -74,41 +74,13 @@ feature_row_side:
 
 ## Selected work
 
-{% include feature_row id="feature_row_gd" type="left" %}
+{% include feature_row id="feature_row_nlp" type="left" %}
 
 {% include feature_row id="feature_row_tc" type="right" %}
 
-{% include feature_row id="feature_row_nlp" type="left" %}
+{% include feature_row id="feature_row_gd" type="left" %}
 
 {% include feature_row id="feature_row_sim" type="right" %}
-
-## How I work
-
-These are the principles I bring to any program, and where you can see them in the work.
-
-**Make the reasoning easy to inspect.** A decision is only as useful as the next person's ability to check it, so I keep the why beside the what, whether that means a rationale document and an open-items ledger behind every interface value, an explanation behind every match an automated tool proposes, or a trace from each requirement back to the need it serves. *See [interface control](/work/interface-control/) and [tracing requirements with NLP](/work/requirements-nlp/).*
-
-**Prove it small before asking anyone to adopt it.** A working example on real material persuades reviewers in a way a framework on a slide never does, so I build one first, walk people through it end to end, and propose the larger version only after it has held up. *See [the test cell architecture](/work/test-cell-architecture/) and [tracing requirements with NLP](/work/requirements-nlp/).*
-
-**Trust a check only after you have seen it fail.** A passing result means something only when the check behind it can fail, so I plant defects in my own checks before relying on them, watch the output people actually see as well as the processes behind it, and treat a recovery path as untested until it has rebuilt something real. *See [requirements a pipeline can verify](/work/sim-requirements-ci/) and [ShipWall](/work/shipwall/).*
-
-**Say what the evidence shows, at the level it shows it.** Draft or baselined, estimated or measured, a ranked suggestion or a decision, an unreviewed recording or approved minutes, and saying plainly which is which keeps a document or a tool trusted after the first hard question. *See [tracing requirements with NLP](/work/requirements-nlp/), [requirements a pipeline can verify](/work/sim-requirements-ci/), and [the Holliston Ledger](/work/holliston-ledger/).*
-
-**Agree on the interface before building either side.** A contract settled first lets each side be built and tested on its own, whether it is a controlled interface document, a proxy port typed from the design authority's ICD, or a browser mock that a display's firmware had to match pixel for pixel. *See [interface control](/work/interface-control/), [the test cell architecture](/work/test-cell-architecture/), and [ShipWall](/work/shipwall/).*
-
-## Side projects
-
-{% include feature_row id="feature_row_side" %}
-
-## Writing
-
-{% if site.posts.size > 0 %}
-{% for post in site.posts limit: 3 %}
-  {% include archive-single.html %}
-{% endfor %}
-{% else %}
-Write-ups on NLP for requirements traceability, Python for systems engineers, and lessons from putting MBSE on real programs are on the way.
-{% endif %}
 
 ## Programs
 
@@ -122,6 +94,32 @@ The short version of where I've worked, with the full detail in my [resume](/doc
 - **U.S. Navy robotics at Boston Engineering** – Automated coating QA for flight decks, hull inspection, USV anchoring, and an EOD tether-management ROV
 - **U.S. Air Force, 2016–2021** – Launch facility engineering and vehicle integration at Vandenberg, then base-defense acquisition at Hanscom, leaving as a Captain
 
+## Side projects
+
+{% include feature_row id="feature_row_side" %}
+
+## How I work
+
+A few habits run through most of the projects on this site, each with links to where it shows up.
+
+**Make the reasoning easy to inspect.** I keep the why beside the what so the next person can check a decision for themselves, whether that means a rationale document and an open-items ledger behind every interface value, an explanation behind every match an automated tool proposes, or a trace from each requirement back to the need it serves. *See [interface control](/work/interface-control/) and [tracing requirements with NLP](/work/requirements-nlp/).*
+
+**Prove it small before asking anyone to adopt it.** I build a working example on real material first, walk reviewers through it end to end, and propose the larger version only after it has held up. *See [the test cell architecture](/work/test-cell-architecture/) and [tracing requirements with NLP](/work/requirements-nlp/).*
+
+**Trust a check only after you have seen it fail.** I plant defects in my own checks before relying on them, watch the output people actually see as well as the processes behind it, and treat a recovery path as untested until it has rebuilt something real. *See [requirements a pipeline can verify](/work/sim-requirements-ci/) and [ShipWall](/work/shipwall/).*
+
+**Say what the evidence shows, at the level it shows it.** I say plainly whether something is draft or baselined, estimated or measured, a ranked suggestion or a decision, an unreviewed recording or approved minutes, so that a document or a tool stays trusted after the first hard question. *See [tracing requirements with NLP](/work/requirements-nlp/), [requirements a pipeline can verify](/work/sim-requirements-ci/), and [the Holliston Ledger](/work/holliston-ledger/).*
+
+**Agree on the interface before building either side.** Settling the contract first lets each side be built and tested on its own, whether the contract is a controlled interface document, a proxy port typed from the design authority's ICD, or a browser mock that a display's firmware had to match pixel for pixel. *See [interface control](/work/interface-control/), [the test cell architecture](/work/test-cell-architecture/), and [ShipWall](/work/shipwall/).*
+
+{% if site.posts.size > 0 %}
+## Writing
+
+{% for post in site.posts limit: 3 %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
+
 ## Get in touch
 
-Email is the fastest way to reach me at [grimsley.ben@gmail.com](mailto:grimsley.ben@gmail.com), and I'm also on [LinkedIn](https://linkedin.com/in/bengrimsley) and [GitHub](https://github.com/bsullgrim).
+The fastest way to reach me is email, at [grimsley.ben@gmail.com](mailto:grimsley.ben@gmail.com), and I'm also on [LinkedIn](https://linkedin.com/in/bengrimsley) and [GitHub](https://github.com/bsullgrim).
