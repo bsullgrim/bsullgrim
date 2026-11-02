@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ben Grimsley | Systems Engineer | Space & Maritime Enthusiast
+title: Ben Grimsley | Systems Engineer
 email: grimsley.ben@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Systems engineer with expertise in orbital manufacturing, MBSE, space technology and maritime robotics. Explore my projects, insights, and research.
+ Systems engineer working on MBSE, interface control, requirements, and the Python tooling that checks engineering work automatically.
 twitter_username: BenSullivanG
 github_username: bsullgrim
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: default
 search: false
 
 # Build settings
@@ -59,7 +59,7 @@ author:
   name   : "Ben Grimsley"
   avatar : assets/images/bio-photo.jpeg
   bio    : "Professional Systems Engineer, amateur woodworker, pretty slow cyclist."
-  location: "Boston, MA"
+  location: "Holliston, MA"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

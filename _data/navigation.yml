@@ -1,5 +1,12 @@
-#main:
-#  - title: "Projects"
-#    url: /projects/
-#  - title: "About"
-#    url: /about/
+main:
+  - title: "Work"
+    url: /#selected-work
+  - title: "Side projects"
+    url: /#side-projects
+  - title: "Resume"
+    url: /docs/B.Grimsley_resume.pdf
+  # Add once these pages exist:
+  # - title: "Writing"
+  #   url: /writing/
+  # - title: "About"
+  #   url: /about/

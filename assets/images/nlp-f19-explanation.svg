@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1030" viewBox="0 0 1600 1030">
+<defs>
+  <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+    <path d="M1,1 L11,6 L1,11 z" fill="context-stroke"/></marker>
+  <marker id="arrN" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+    <path d="M1,1 L11,6 L1,11 z" fill="#1f3864"/></marker>
+  <marker id="arrG" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="15" markerHeight="15" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+    <path d="M1,1 L11,6 L1,11 z" fill="#8a93a3"/></marker>
+  <marker id="arrT" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+    <path d="M1,1 L11,6 L1,11 z" fill="#1f6f78"/></marker>
+  <marker id="open" viewBox="0 0 16 16" refX="14" refY="8" markerWidth="22" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M2,2 L14,8 L2,14" fill="none" stroke="#1d2433" stroke-width="2"/></marker>
+  <marker id="tri" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="30" markerHeight="30" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M2,2 L18,10 L2,18 z" fill="#ffffff" stroke="#1d2433" stroke-width="2"/></marker>
+</defs>
+<rect x="0" y="0" width="1600" height="1030" fill="#ffffff"/>
+<rect x="40" y="30" width="1520" height="190" rx="18" fill="#e8edf6" stroke="#9fb3d4" stroke-width="2"/>
+<text x="80" y="82" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#5b6475" text-anchor="start">Requirement F.19</text>
+<text x="80" y="124" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#1d2433" text-anchor="start">The system shall transmit quality control data to Earth in</text>
+<text x="80" y="162" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#1d2433" text-anchor="start">real-time with a latency of no more than 2 seconds.</text>
+<path d="M930,135 L1000,135" fill="none" stroke="#1f3864" stroke-width="4" stroke-linejoin="round" marker-end="url(#arrN)" marker-start="url(#arrN)"/>
+<text x="1040" y="82" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#5b6475" text-anchor="start">Activity</text>
+<text x="1040" y="124" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1d2433" text-anchor="start">1.2.5 Transmit Data to Ground</text>
+<text x="1040" y="164" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1d2433" text-anchor="start">Control</text>
+<rect x="40" y="255" width="352" height="600" rx="16" fill="#ffffff" stroke="#c3cbd8" stroke-width="2"/>
+<text x="68" y="311" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#1d2433" text-anchor="start">BM25</text>
+<text x="68" y="349" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">Shared rare terms</text>
+<rect x="68" y="395" width="210" height="14" rx="7" fill="#e6e9ef" stroke="#e6e9ef" stroke-width="0"/>
+<rect x="68" y="395" width="169.68" height="14" rx="7" fill="#1f3864" stroke="#1f3864" stroke-width="0"/>
+<text x="364" y="412" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1f3864" text-anchor="end">0.81</text>
+<rect x="429" y="255" width="352" height="600" rx="16" fill="#ffffff" stroke="#c3cbd8" stroke-width="2"/>
+<text x="457" y="311" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#1d2433" text-anchor="start">Semantic</text>
+<text x="457" y="349" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">Word-vector similarity</text>
+<rect x="457" y="395" width="210" height="14" rx="7" fill="#e6e9ef" stroke="#e6e9ef" stroke-width="0"/>
+<rect x="457" y="395" width="161.70000000000002" height="14" rx="7" fill="#1f3864" stroke="#1f3864" stroke-width="0"/>
+<text x="753" y="412" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1f3864" text-anchor="end">0.77</text>
+<rect x="818" y="255" width="352" height="600" rx="16" fill="#ffffff" stroke="#c3cbd8" stroke-width="2"/>
+<text x="846" y="311" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#1d2433" text-anchor="start">Domain</text>
+<text x="846" y="349" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">Vocabulary and learned</text>
+<text x="846" y="377" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">relationships</text>
+<rect x="846" y="395" width="210" height="14" rx="7" fill="#e6e9ef" stroke="#e6e9ef" stroke-width="0"/>
+<rect x="846" y="395" width="210.0" height="14" rx="7" fill="#1f3864" stroke="#1f3864" stroke-width="0"/>
+<text x="1142" y="412" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1f3864" text-anchor="end">1.00</text>
+<rect x="1207" y="255" width="352" height="600" rx="16" fill="#ffffff" stroke="#c3cbd8" stroke-width="2"/>
+<text x="1235" y="311" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#1d2433" text-anchor="start">Query expansion</text>
+<text x="1235" y="349" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">Activity widened with</text>
+<text x="1235" y="377" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">synonyms</text>
+<rect x="1235" y="395" width="210" height="14" rx="7" fill="#e6e9ef" stroke="#e6e9ef" stroke-width="0"/>
+<rect x="1235" y="395" width="163.38" height="14" rx="7" fill="#1f3864" stroke="#1f3864" stroke-width="0"/>
+<text x="1531" y="412" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1f3864" text-anchor="end">0.78</text>
+<text x="68" y="463" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#5b6475" text-anchor="start">3 shared terms</text>
+<rect x="68" y="481" width="101.625" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="118.8125" y="509.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">control</text>
+<rect x="179.625" y="481" width="94.359375" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="226.8046875" y="509.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">datum</text>
+<rect x="68" y="531" width="114.0625" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="125.03125" y="559.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">transmit</text>
+<text x="68" y="621" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#5b6475" text-anchor="start">aerospace boost</text>
+<rect x="68" y="639" width="101.625" height="40" rx="20.0" fill="#fbefe3" stroke="#a3550f" stroke-width="1.5"/>
+<text x="118.8125" y="667.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#a3550f" text-anchor="middle">control</text>
+<text x="457" y="469" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="400" fill="#1d2433" text-anchor="start">spaCy compares the two</text>
+<text x="457" y="501" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="400" fill="#1d2433" text-anchor="start">texts as wholes, which</text>
+<text x="457" y="533" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="400" fill="#1d2433" text-anchor="start">credits pairs that say the</text>
+<text x="457" y="565" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="400" fill="#1d2433" text-anchor="start">same thing in different</text>
+<text x="457" y="597" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="400" fill="#1d2433" text-anchor="start">words, the case the other</text>
+<text x="457" y="629" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="400" fill="#1d2433" text-anchor="start">three scorers can miss.</text>
+<text x="846" y="463" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#5b6475" text-anchor="start">learned from manual traces</text>
+<text x="846" y="505" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#1d2433" text-anchor="start">latency →</text>
+<text x="862" y="537" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">control, ground, datum,</text>
+<text x="862" y="565" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">transmit</text>
+<text x="846" y="607" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#1d2433" text-anchor="start">transmit →</text>
+<text x="862" y="639" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">control, ground, datum</text>
+<text x="846" y="681" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#1d2433" text-anchor="start">control →</text>
+<text x="862" y="713" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start">transmit, ground, datum</text>
+<text x="846" y="769" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start" font-style="italic">+0.10 for multiple kinds of</text>
+<text x="846" y="797" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6475" text-anchor="start" font-style="italic">evidence</text>
+<text x="1235" y="463" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#5b6475" text-anchor="start">7 of 9 terms covered</text>
+<rect x="1235" y="481" width="101.625" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="1285.8125" y="509.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">control</text>
+<rect x="1346.625" y="481" width="67.28125" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="1380.265625" y="509.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">real</text>
+<rect x="1235" y="531" width="114.0625" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="1292.03125" y="559.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">transmit</text>
+<rect x="1359.0625" y="531" width="94.359375" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="1406.2421875" y="559.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">datum</text>
+<rect x="1235" y="581" width="104.40625" height="40" rx="20.0" fill="#ffffff" stroke="#8a93a3" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="1287.203125" y="609.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#5b6475" text-anchor="middle">latency</text>
+<rect x="1349.40625" y="581" width="104.078125" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="1401.4453125" y="609.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">system</text>
+<rect x="1235" y="631" width="105.578125" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="1287.7890625" y="659.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">second</text>
+<rect x="1350.578125" y="631" width="73.5" height="40" rx="20.0" fill="#e8edf6" stroke="#9fb3d4" stroke-width="1.5"/>
+<text x="1387.328125" y="659.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#1d2433" text-anchor="middle">time</text>
+<rect x="1235" y="681" width="99.015625" height="40" rx="20.0" fill="#ffffff" stroke="#8a93a3" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="1284.5078125" y="709.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#5b6475" text-anchor="middle">quality</text>
+<text x="1235" y="765" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="400" fill="#5b6475" text-anchor="start" font-style="italic">after widening the activity</text>
+<text x="1235" y="793" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="400" fill="#5b6475" text-anchor="start" font-style="italic">with 32 synonyms; dashed</text>
+<text x="1235" y="821" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="400" fill="#5b6475" text-anchor="start" font-style="italic">terms were not covered</text>
+<rect x="40" y="895" width="1520" height="110" rx="18" fill="#1f3864" stroke="#1f3864" stroke-width="2"/>
+<text x="80" y="963" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="start">Ranked first of the five candidates the matcher kept for F.19</text>
+<text x="1520" y="963" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#dfe6f2" text-anchor="end" font-style="italic">terms are lemmas, so data appears as datum</text>
+</svg>
