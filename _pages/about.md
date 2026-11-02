@@ -3,12 +3,34 @@ title: "About"
 excerpt: "Systems engineer at Draper, Air Force veteran, and Holliston resident who builds cabinetry, binds books, and runs a civic news publication on the side."
 permalink: /about/
 gallery_launch:
+  - url: /assets/images/about-vandenberg.jpg
+    image_path: /assets/images/about-vandenberg.jpg
+    alt: "Ben in Air Force uniform on a ridge above Vandenberg, with the coastline behind him"
   - url: /assets/images/about-launch.jpg
     image_path: /assets/images/about-launch.jpg
     alt: "A Minotaur IV rocket lifting off at night carrying the ORS-5 satellite"
   - url: /assets/images/about-orion.jpg
     image_path: /assets/images/about-orion.jpg
     alt: "The Orion Ascent Abort-2 test vehicle on its stand during stacking, with a NASA flag in the foreground"
+gallery_outside:
+  - url: /assets/images/about-chest.jpg
+    image_path: /assets/images/about-chest.jpg
+    alt: "A wooden chest with black strap hinges, lid open, on a shop floor covered in shavings"
+  - url: /assets/images/about-binding.jpg
+    image_path: /assets/images/about-binding.jpg
+    alt: "A hand-sewn book with a green cover and exposed sewing on the spine, on a cutting mat"
+  - url: /assets/images/about-andromeda.jpg
+    image_path: /assets/images/about-andromeda.jpg
+    alt: "The Andromeda Galaxy against a field of stars"
+  - url: /assets/images/about-nuthatch.jpg
+    image_path: /assets/images/about-nuthatch.jpg
+    alt: "A white-breasted nuthatch with its wings spread, leaving a peanut feeder"
+  - url: /assets/images/about-banjo.jpg
+    image_path: /assets/images/about-banjo.jpg
+    alt: "Ben in a bush hat playing a banjo on a dock by the water"
+  - url: /assets/images/about-bike.jpg
+    image_path: /assets/images/about-bike.jpg
+    alt: "Ben standing beside a loaded gravel bike in front of a granite bridge wall"
 ---
 
 I'm a systems engineer at Draper, where since 2023 I've worked on the interface definitions, models, and requirements that missile defense, guidance, and space programs are built and tested against, and I live in Holliston, Massachusetts, with my wife and our daughter.
@@ -17,7 +39,7 @@ I'm a systems engineer at Draper, where since 2023 I've worked on the interface 
 
 I grew up in Fairport, outside Rochester, New York, made Eagle Scout there, and studied mechanical engineering at the Rochester Institute of Technology, graduating in 2016 and commissioning into the Air Force the same year. My first assignment was at Vandenberg, where I led a small team responsible for more than $70 million in modernization and sustainment of the base's space launch facilities, including an HVAC project that had been the unit's top readiness issue for X-37B recovery, and then moved into launch integration, leading the maintenance team that supported Minotaur I and IV booster stacking on both coasts and leading the vehicle stacking for NASA's Orion Ascent Abort-2 test, with a hand in Falcon 9 certification along the way. Standing next to the hardware showed me how much of a launch depends on agreements written down long before anyone touches the vehicle, and that paperwork, the interfaces and requirements that let separate teams build parts that fit, is where I've wanted to work ever since.
 
-{% include gallery id="gallery_launch" layout="half" caption="Launch integration: a Minotaur IV lifting off from Cape Canaveral with ORS-5 in August 2017, and the Orion Ascent Abort-2 vehicle during stacking." %}
+{% include gallery id="gallery_launch" layout="third" caption="At Vandenberg in 2017, a Minotaur IV lifting off from Cape Canaveral with ORS-5 that August, and the Orion Ascent Abort-2 vehicle during stacking." %}
 
 {% include figure image_path="/assets/images/about-team.jpg" alt="A group of Air Force members in uniform standing in front of two large rocket motor stages marked LOADED" caption="With my team in front of loaded rocket motor stages." %}
 
@@ -31,6 +53,8 @@ I liked geometry proofs in school because they worked like logic puzzles, where 
 
 Outside of work and family, I run [The Holliston Ledger](/work/holliston-ledger/), a civic news publication that covers our town government from its public record, and I built [ShipWall](/work/shipwall/), a ship-traffic display at my family's cottage on the St. Lawrence Seaway that I keep running remotely. I'm a hand-tool woodworker who builds his own cabinetry, and I bind books, including a facsimile I'm making of a 1904 German book set in Fraktur, reproduced from scans page by page so that its original typography survives.
 
-I'm also working through a self-directed Great Books program modeled on the St. John's College curriculum, most recently Plato's *Meno* and Aeschylus's *Oresteia*, alongside a lot of science fiction, with *A Canticle for Leibowitz* and the Sun Eater series as the books I return to most. On clear nights I do astrophotography with a small telescope, I go birding when I can, I collect vinyl, and I've recently gone back to playing the piano.
+I'm also working through a self-directed Great Books program modeled on the St. John's College curriculum, most recently Plato's *Meno* and Aeschylus's *Oresteia*, alongside a lot of science fiction, with *A Canticle for Leibowitz* and the Sun Eater series as the books I return to most. On clear nights I do astrophotography with a small telescope, I go birding when I can and take the bike on trips when there's time, and at home I collect vinyl, play the banjo, and have recently gone back to the piano.
+
+{% include gallery id="gallery_outside" layout="third" caption="A chest from the shop, a hand-sewn binding, the Andromeda Galaxy from Holliston, a white-breasted nuthatch at the feeder, the banjo, and a bike trip in Maine." %}
 
 My [resume](/docs/B.Grimsley_resume.pdf) has the full detail of my work history, and email at [grimsley.ben@gmail.com](mailto:grimsley.ben@gmail.com) is the fastest way to reach me.
