@@ -9,7 +9,8 @@ header:
       url: "/docs/B.Grimsley_resume.pdf"
     - label: "Email me"
       url: "mailto:grimsley.ben@gmail.com"
-excerpt: "Systems engineer at Draper, on programs from Trident II and Blue Origin's lunar lander to DARPA's Otter satellite."
+excerpt: "Systems engineer at Draper, after five years as an Air Force officer in space launch and acquisition."
+description: "Systems engineer at Draper working on MBSE, interface control, and the tooling that checks engineering work automatically."
 
 # --- Selected work: one full-width row per case study, alternating image side ---
 feature_row_gd:
