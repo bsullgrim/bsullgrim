@@ -67,7 +67,10 @@ feature_row_side:
     btn_label: "How it's built"
 ---
 
-I'm a systems engineer at Draper, working from Holliston, Massachusetts, on the models, requirements, and interface definitions that missile defense, guidance, and space programs are built and tested against, and increasingly on the Python tooling that checks that work automatically so the people reviewing it can spend their attention on the judgment calls.
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5em; margin-bottom: 1em;">
+  <img src="/assets/images/bio-photo-400.jpg" alt="Ben Grimsley" width="150" height="150" style="width: 150px; height: 150px; border-radius: 50%; flex: 0 0 150px; margin: 0;">
+  <p style="flex: 1 1 280px; margin: 0;">I'm a systems engineer at Draper, working from Holliston, Massachusetts, on the models, requirements, and interface definitions that missile defense, guidance, and space programs are built and tested against, and increasingly on the Python tooling that checks that work automatically so the people reviewing it can spend their attention on the judgment calls. There's more about how I got here <a href="/about/">on my About page</a>.</p>
+</div>
 
 ## Selected work
 

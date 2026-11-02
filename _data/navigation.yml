@@ -3,10 +3,10 @@ main:
     url: /#selected-work
   - title: "Side projects"
     url: /#side-projects
+  - title: "About"
+    url: /about/
   - title: "Resume"
     url: /docs/B.Grimsley_resume.pdf
-  # Add once these pages exist:
+  # Add once this page exists:
   # - title: "Writing"
   #   url: /writing/
-  # - title: "About"
-  #   url: /about/
